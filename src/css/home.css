@@ -5,77 +5,97 @@ body {
 }
 
 header {
-  background: url(./supro/homepage/resources/sl3-1.jpg);
+  background: url(../supro/homepage/resources/sl3-1.jpg);
+  background-repeat: no-repeat;
   height: 700px;
-  background-size: cover;
-  background-position: left;
+  background-position: 10%;
 }
 
 .img-main1 {
   width: 100%;
   height: 300px;
-  background-image: url(./supro/homepage/resources/banner_h1_1.jpg);
+  background-image: url(../supro/homepage/resources/banner_h1_1.jpg);
   background-size: cover;
 }
 
 .img-main2 {
   width: 100%;
   height: 300px;
-  background-image: url(./supro/homepage/resources/banner_h1_2.jpg);
+  background-image: url(../supro/homepage/resources/banner_h1_2.jpg);
   background-size: cover;
 }
 
 .img-main3 {
   width: 100%;
   height: 300px;
-  background-image: url(./supro/homepage/resources/banner_h1_3.jpg);
+  background-image: url(../supro/homepage/resources/banner_h1_3.jpg);
   background-size: cover;
 }
 
 .bsl1 {
-  width: 100%;
-  height: 300px;
-  background-image: url(./supro/homepage/resources/bsl1.jpg);
+  background-image: url(../supro/homepage/resources/bsl1.jpg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  position: relative;
+  background-position: top 20% left 30%;
+}
+
+.bsl1 .bag-text {
+  position: absolute;
+  bottom: 8%;
+  left: 20%;
 }
 
 .bsl2 {
-  width: 100%;
-  height: 300px;
-  background-image: url(./supro/homepage/resources/bsl2.jpg);
-  background-size: cover;
-}
-
-.bsl3-cadre {
+  height: 60vh;
+  background-image: url(../supro/homepage/resources/bsl2.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
   position: relative;
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
+  background-position: top left;
 }
 
-.bsl3-cadre .bsl3 {
-  background-image: url(./supro/homepage/resources/bsl3.jpg);
+.bsl2 .flower-text {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 10%;
+  left: -11%;
+}
+
+.bsl3 {
+  height: 60vh;
+  background-image: url(../supro/homepage/resources/bsl3.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  position: relative;
+  background-position: top 70% left -10%;
+}
+
+.bsl3 .flower-text {
+  position: absolute;
+  top: 10%;
+  left: -11%;
 }
 
 .bsl4 {
-  width: 100%;
-  height: 300px;
-  background-image: url(./supro/homepage/resources/bsl4.jpg);
-  background-size: cover;
+  height: 60vh;
+  background-image: url(../supro/homepage/resources/bsl4.jpg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  position: relative;
+  background-position: top 60% left 30%;
+}
+
+.bsl4 .flower-text {
+  position: absolute;
+  bottom: -11%;
+  left: 21%;
 }
 
 .photo-sac {
-  width: 100%;
+  background-image: url(../supro/homepage/resources/prd_05_1_2.jpg);
+  width: 200px;
   height: 300px;
-  background-image: url(./supro/homepage/resources/bsl4.jpg);
-  background-size: cover;
-  border: 1px solid #000;
+  background-position: center;
 }
 
 .hobo {
@@ -85,7 +105,7 @@ header {
 .hobo .deals_image {
   width: 100%;
   height: 300px;
-  background-image: url(./supro/homepage/resources/deals_image.jpg);
+  background-image: url(../supro/homepage/resources/deals_image.jpg);
   background-size: cover;
   border: 1px solid #000;
 }

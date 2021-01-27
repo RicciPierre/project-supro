@@ -1,0 +1,230 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* No CSS *//*# sourceMappingURL=shop.css.map */
+=======
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Left sidebar */
+
+#sidebar .title {
+    font-size: large;
+    font-weight: bold;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+#sidebar li {
+    color: #999;
+    font-size: small;
+}
+
+#sidebar hr {
+    height: 2px;
+    width: 110px;
+    background-color: #f68773;
+    position: relative;
+    right: 50px;
+}
+
+#sidebar .size {
+  font-size: small;
+}
+
+.bullet {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.bullet img {
+  height: 16px;
+  width: 16px;
+}
+
+.bullet p {
+  padding-left: 10px;
+}
+
+input {
+  position: absolute;
+  right: 0;
+}
+
+
+/* Top bar */
+
+h3 {
+    font-weight: bold;
+}
+
+.rating {
+    direction: rtl;
+ }
+ .rating a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color .4s;
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ }
+
+
+ @media screen and (max-width:992px) {
+     #xam {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+ }
+
+ /* Footer */
+
+ footer .row-f1 {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 125px 50px 50px 125px;
+  }
+  
+  footer .row-f1 .col-2-f {
+    -ms-flex: 0 0 16.666667%;
+    -webkit-box-flex: 0;
+            flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  footer .row-f1 .col-2-f ul {
+    margin: 25px 0 2px 0;
+    padding: 0;
+  }
+  
+  footer .row-f1 .col-2-f ul li {
+    margin: 0;
+    padding: 10px 10px 10px 0;
+  }
+  
+  footer .row-f1 .col-2-f ul li a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  footer .row-f1 .col-2-f ul li a:hover {
+    padding: 5px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  footer .row-f1 .col-2-f .selectpicker {
+    margin-top: 35px;
+    color: grey;
+    border: none;
+    background-color: #ffffff;
+  }
+  
+  footer hr {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  footer .row-f2 {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  footer .row-f2 .col-6-f {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+            flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+  }
+  
+  footer .row-f2 .col-6-f p {
+    color: grey;
+  }
+  
+  footer .row-f2 .col-3-f1 {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+            flex: 0 0 25%;
+    max-width: 25%;
+    text-align: right;
+  }
+  
+  footer .row-f2 .col-3-f1 a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 15px;
+  }
+  
+  footer .row-f2 .col-3-f1 a:hover {
+    padding: 5px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  footer .row-f2 .col-3-f2 {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+            flex: 0 0 25%;
+    max-width: 25%;
+    text-align: left;
+  }
+  
+  footer .row-f2 .col-3-f2 a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  footer .row-f2 .col-3-f2 a:hover {
+    padding: 5px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+<<<<<<< HEAD
+  }
+=======
+  }
+>>>>>>> d99944cd45d080c9d4f056673c99b48e93c22907
+>>>>>>> 6401c2b60447d02dd54ed4601e58bc85e94e6951
+>>>>>>> 83a64ca93aad66df9342cfdfcaf3274b6e49f7fc
