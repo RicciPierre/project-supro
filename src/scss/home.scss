@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+header {
+  background: url(./supro/homepage/resources/sl3-1.jpg);
+  height: 700px;
+  background-size: cover;
+  background-position: left;
+}
+
+.text-header {
+  // padding-top: 200px;
+}
+
+.img-main1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/banner_h1_1.jpg);
+  background-size: cover;
+}
+.img-main2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/banner_h1_2.jpg);
+  background-size: cover;
+}
+.img-main3 {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/banner_h1_3.jpg);
+  background-size: cover;
+}
+.bsl1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/bsl1.jpg);
+}
+
+.bsl2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/bsl2.jpg);
+  background-size: cover;
+}
+.bsl3-cadre {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  .bsl3 {
+    background-image: url(./supro/homepage/resources/bsl3.jpg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+.bsl4 {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/bsl4.jpg);
+  background-size: cover;
+}
+
+//6 photos new arrival
+
+.photo-sac {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/bsl4.jpg);
+  background-size: cover;
+  border: 1px solid #000;
+}
+
+// photos 3sacs
+.hobo {
+  height: 400px;
+  // background-color: grey;
+}
+
+.hobo .deals_image {
+  width: 100%;
+  height: 300px;
+  background-image: url(./supro/homepage/resources/deals_image.jpg);
+  background-size: cover;
+  border: 1px solid #000;
+}
