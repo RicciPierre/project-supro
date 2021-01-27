@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+/* No CSS *//*# sourceMappingURL=shop.css.map */
+=======
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -216,4 +219,9 @@ h3 {
     background-color: grey;
     color: white;
     border-radius: 15px;
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> d99944cd45d080c9d4f056673c99b48e93c22907
+>>>>>>> 6401c2b60447d02dd54ed4601e58bc85e94e6951
