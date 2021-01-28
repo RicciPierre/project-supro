@@ -18,15 +18,15 @@
 
     <header></header>
 
+    <!-- All content except header and footer -->
     <div class="container">
-        <!-- All content except header and footer -->
 
 
         <!-- All middle page content -->
         <div class="row" id="xam">
 
             <!-- Left sidebar -->
-            <div class="col-lg-2 col-md-4 col-sm-6" id="sidebar">
+            <div class="col-lg-3 col-md-4 col-sm-6" id="sidebar">
                 <ul>
                     <p class="title">Active Filters</p>
                     <li>× Min £ 9.00</li>
@@ -53,53 +53,47 @@
                     <li>PRICE: $0 - $100</li>
                 </ul>
 
-                <ul>
+                <ul class="ul-checkbox">
                     <li>
                         <div class="bullet">
                             <img src="src/supro/shop/resources/black.png">
                             <p>Black</p>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+                            <input type="checkbox" id="checkbox" checked="checked">
                         </div>
                     </li>
                     <li>
                         <div class="bullet">
                             <img src="src/supro/shop/resources/blue.png">
                             <p>Blue</p>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+                            <input type="checkbox" autocomplete="off">
                         </div>
                     </li>
                     <li>
                         <div class="bullet">
                             <img src="src/supro/shop/resources/gold.png">
                             <p>Gold</p>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+                            <input type="checkbox" autocomplete="off">
                         </div>
                     </li>
                     <li>
                         <div class="bullet">
                             <img src="src/supro/shop/resources/nude.png">
                             <p>Nude</p>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+                            <input type="checkbox" autocomplete="off">
                         </div>
                     </li>
                     <li>
                         <div class="bullet">
                             <img src="src/supro/shop/resources/orange.png">
                             <p>Orange</p>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+                            <input type="checkbox" autocomplete="off">
                         </div>
                     </li>
                     <li>
                         <div class="bullet">
                             <img src="src/supro/shop/resources/red.png">
                             <p>Red</p>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
+                            <input type="checkbox" autocomplete="off">
                         </div>
                     </li>
                 </ul>
@@ -110,9 +104,60 @@
 
                 <ul>
                     <p class="title">Products</p>
-                    <li>Img</li>
-                    <li>Img</li>
-                    <li>Img</li>
+                    <li>
+                        <div class="mini-article">
+                            <img src="src/supro/shop/resources/3.jpg" class="photo" alt=""
+                                onmouseover="this.src='src/supro/shop/resources/3-h.jpg'"
+                                onmouseout="this.src='src/supro/shop/resources/3.jpg'">
+                            <div class="info">
+                                <p class="article">Embroidered Fl...</p>
+                                <div class="rating">
+                                    <a href="#5" title="Donner 5 étoiles">☆</a>
+                                    <a href="#4" title="Donner 4 étoiles">☆</a>
+                                    <a href="#3" title="Donner 3 étoiles">☆</a>
+                                    <a href="#2" title="Donner 2 étoiles">☆</a>
+                                    <a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                                <p class="price">£ 56.89</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mini-article">
+                            <img src="src/supro/shop/resources/2.jpg" class="photo" alt=""
+                                onmouseover="this.src='src/supro/shop/resources/2-h.jpg'"
+                                onmouseout="this.src='src/supro/shop/resources/2.jpg'">
+                            <div class="info">
+                                <p class="article">Contrast Backp...</p>
+                                <div class="rating">
+                                    <a href="#5" title="Donner 5 étoiles">☆</a>
+                                    <a href="#4" title="Donner 4 étoiles">☆</a>
+                                    <a href="#3" title="Donner 3 étoiles">☆</a>
+                                    <a href="#2" title="Donner 2 étoiles">☆</a>
+                                    <a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                                <p class="price">£ 56.89</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mini-article">
+                            <img src="src/supro/shop/resources/5.jpg" class="photo" alt=""
+                                onmouseover="this.src='src/supro/shop/resources/5-h.jpg'"
+                                onmouseout="this.src='src/supro/shop/resources/5.jpg'">
+                            <div class="info">
+                                <p class="article">Mango Women'...</p>
+                                <div class="rating">
+                                    <a href="#5" title="Donner 5 étoiles">☆</a>
+                                    <a href="#4" title="Donner 4 étoiles">☆</a>
+                                    <a href="#3" title="Donner 3 étoiles">☆</a>
+                                    <a href="#2" title="Donner 2 étoiles">☆</a>
+                                    <a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                                <p class="price">£ 89.59</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
 
@@ -120,7 +165,14 @@
             <div class="col-lg-9 col-md-12 col-sm-12">
 
                 <div class="row topbar">
-                    <h2>Shop</h2>
+                    <div class="col-lg-3 logo-shop">
+                        <h2>Shop</h2>
+                        <a href="*" class="home">Home •</a>
+                        <a href="*" class="shop">Shop</a>
+                    </div>
+                    <div class="col-lg-6 filter-bar">
+
+                    </div>
                 </div>
 
 
@@ -157,7 +209,7 @@
                         <p class="price">£ 69.90</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
-                        <img src="src/supro/shop/resources/3.jpg" class="img-fluid photo" alt=""
+                        <img src="src/supro/shop/resources/3.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/3-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/3.jpg'">
                         <p class="article">Embroidered Flowy Jacket</p>
@@ -305,7 +357,6 @@
                 </div>
                 <div class="row discover">
                     <a href="*">DISCOVER MORE</a>
-                    <!-- <hr> -->
                 </div>
             </div>
         </div>

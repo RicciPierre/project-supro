@@ -10,6 +10,8 @@ body {
 
 /* Left sidebar */
 
+#sidebar {}
+
 #sidebar .title {
     font-size: large;
     font-weight: bold;
@@ -21,6 +23,10 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 0;
+}
+
+.ul-checkbox {
+  padding-right: 40px;
 }
 
 #sidebar li {
@@ -62,6 +68,41 @@ input {
   right: 0;
 }
 
+input:checked {
+  color: #000;
+  background-color: white;
+}
+
+.products {
+  margin: 0;
+}
+
+.photo {
+  height: 60px;
+  width: auto;
+}
+
+.mini-article {
+display: flex;
+height: 90px;
+width: auto;
+padding-left: 0;
+align-items: center;
+}
+
+.mini-article p {
+  padding: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  line-height: 150%;
+}
+
+
+
 
 /* Top bar */
 
@@ -73,8 +114,47 @@ input {
   align-items: center;
 }
 
+.logo-shop {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo-shop a {
+  text-decoration: none;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.logo-shop p {
+  color: #999;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.home {
+  color: #999;
+}
+
+.home:hover {
+  color: #999;
+}
+
+.shop {
+  color: #000;
+}
+
+.shop:hover {
+  color: #000;
+}
+
 h2 {
     font-weight: bold;
+    margin-bottom: 0;
+}
+
+.filter-bar {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .rating {
@@ -142,10 +222,12 @@ h2 {
    padding-bottom: 50px;
  }
 
+
  .discover a:link {
    color: black;
    font-size: small;
    font-weight: bold;
+   border-bottom: 2px solid #000;
  }
 
  .discover a:hover {
