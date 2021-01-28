@@ -93,22 +93,30 @@ header {
 
 .photo-sac {
   background-image: url(../supro/homepage/resources/prd_05_1_2.jpg);
-  width: 200px;
-  height: 300px;
+  width: 370px;
+  height: 370px;
   // background-size: 150%;
   background-position: center;
+  background-repeat: no-repeat;
+}
+.star-rating {
+  color: #ee8673;
 }
 
 // photos 3sacs
-.hobo {
-  height: 400px;
-  // background-color: grey;
+section .hobo {
 }
 
 .hobo .deals_image {
-  width: 100%;
-  height: 300px;
+  height: 800px;
   background-image: url(../supro/homepage/resources/deals_image.jpg);
-  background-size: cover;
-  border: 1px solid #000;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+
+  .flower-text {
+    position: absolute;
+    bottom: 50%;
+    left: 21%;
+  }
 }
