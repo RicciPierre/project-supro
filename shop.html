@@ -19,20 +19,23 @@
     <header></header>
 
     <div class="container">
-    <!-- All content except header and footer -->
+        <!-- All content except header and footer -->
 
 
+        <!-- All middle page content -->
         <div class="row" id="xam">
+
             <!-- Left sidebar -->
-            <div class="col-lg-3 col-md-4 col-sm-6" id="sidebar">
+            <div class="col-lg-2 col-md-4 col-sm-6" id="sidebar">
                 <ul>
-                    <p>Active Filters</p>
+                    <p class="title">Active Filters</p>
                     <li>× Min £ 9.00</li>
                     <li>× Max £ 9.00</li>
                     <li>× Remove all filter</li>
                 </ul>
+
                 <ul>
-                    <p>Categories</p>
+                    <p class="title">Categories</p>
                     <li>Bags</li>
                     <li>Clothing</li>
                     <li>Hats & Gloves</li>
@@ -43,74 +46,92 @@
                     <li>Wallets & cases</li>
                     <li>Women</li>
                 </ul>
+
                 <ul>
-                    <p>Filter price</p>
+                    <p class="title">Filter price</p>
                     <hr>
                     <li>PRICE: $0 - $100</li>
-                    <ul>
-                        <li>
-                            <div class="bullet">
-                                <img src="src/supro/shop/resources/black.png">
-                                <label class="container">Black
-                                    <input type="checkbox" checked="checked">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <label class="container">Blue
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="container">Gold
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="container">Nude
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="container">Orange
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                        <li>
-                            <label class="container">Red
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>LMSXL</li>
-                    </ul>
-                    <ul>
-                        <p>Products</p>
-                        <li>Img</li>
-                        <li>Img</li>
-                        <li>Img</li>
-                    </ul>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="bullet">
+                            <img src="src/supro/shop/resources/black.png">
+                            <p>Black</p>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet">
+                            <img src="src/supro/shop/resources/blue.png">
+                            <p>Blue</p>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet">
+                            <img src="src/supro/shop/resources/gold.png">
+                            <p>Gold</p>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet">
+                            <img src="src/supro/shop/resources/nude.png">
+                            <p>Nude</p>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet">
+                            <img src="src/supro/shop/resources/orange.png">
+                            <p>Orange</p>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet">
+                            <img src="src/supro/shop/resources/red.png">
+                            <p>Red</p>
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <p class="size">LMSXL</P>
+                </ul>
+
+                <ul>
+                    <p class="title">Products</p>
+                    <li>Img</li>
+                    <li>Img</li>
+                    <li>Img</li>
+                </ul>
             </div>
 
             <!-- Top bar -->
             <div class="col-lg-9 col-md-12 col-sm-12">
-                <h3>Shop</h3>
+
+                <div class="row topbar">
+                    <h2>Shop</h2>
+                </div>
+
 
                 <!-- Tableau photos -->
-                <div class="row d-flex justify-content-between">
+                <div class="row" id="tableau1">
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/1.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/1-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/1.jpg'">
-                        <p>Aviator Sunglasses</p>
+                        <p class="article">Aviator Sunglasses</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -118,14 +139,14 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 9.90</p>
+                        <p class="price">£ 9.90</p>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/2.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/2-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/2.jpg'">
-                        <p>Contrast Backpack</p>
+                        <p class="article">Contrast Backpack</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -133,13 +154,13 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 69.90</p>
+                        <p class="price">£ 69.90</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
-                        <img src="src/supro/shop/resources/3.jpg" class="img-fluid" alt=""
+                        <img src="src/supro/shop/resources/3.jpg" class="img-fluid photo" alt=""
                             onmouseover="this.src='src/supro/shop/resources/3-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/3.jpg'">
-                        <p>Embroidered Flowy Jacket</p>
+                        <p class="article">Embroidered Flowy Jacket</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -147,15 +168,15 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 56.89</p>
+                        <p class="price">£ 56.89</p>
                     </div>
                 </div>
-                <div class="row d-flex flex-nowrap justify-content-between">
+                <div class="row" id="tableau">
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/4.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/4-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/4.jpg'">
-                        <p>Floral Short Jumpsuit</p>
+                        <p class="article">Floral Short Jumpsuit</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -163,13 +184,13 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 97.99</p>
+                        <p class="price">£ 97.99</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/5.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/5-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/5.jpg'">
-                        <p>Mango Women's Bag</p>
+                        <p class="article">Mango Women's Bag</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -177,13 +198,13 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 89.90</p>
+                        <p class="price">£ 89.90</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/6.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/6-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/6.jpg'">
-                        <p>Glitter Decorated Shoes</p>
+                        <p class="article">Glitter Decorated Shoes</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -191,15 +212,15 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 56.90</p>
+                        <p class="price">£ 56.90</p>
                     </div>
                 </div>
-                <div class="row d-flex flex-nowrap justify-content-between">
+                <div class="row" id="tableau">
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/7.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/7-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/7.jpg'">
-                        <p>Contrasting Design T-Shirt</p>
+                        <p class="article">Contrasting Design T-Shirt</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -207,13 +228,13 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 95.90</p>
+                        <p class="price">£ 95.90</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/8.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/8-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/8.jpg'">
-                        <p>Furry Hooded Parka</p>
+                        <p class="article">Furry Hooded Parka</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -221,13 +242,13 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 95.90</p>
+                        <p class="price">£ 95.90</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/9.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/9-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/9.jpg'">
-                        <p>Wrap Back Dress</p>
+                        <p class="article">Wrap Back Dress</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -235,15 +256,15 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 55.90</p>
+                        <p class="price">£ 55.90</p>
                     </div>
                 </div>
-                <div class="row d-flex flex-nowrap justify-content-between">
+                <div class="row" id="tableau">
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/10.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/10-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/10.jpg'">
-                        <p>Leather Shop Bag</p>
+                        <p class="article">Leather Shop Bag</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -251,13 +272,13 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 59.90</p>
+                        <p class="price">£ 59.90</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/11.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/11-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/11.jpg'">
-                        <p>Shearling Leather Jacket</p>
+                        <p class="article">Shearling Leather Jacket</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -265,13 +286,13 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 159.90</p>
+                        <p class="price">£ 159.90</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <img src="src/supro/shop/resources/12.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/12-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/12.jpg'">
-                        <p>Cropped Denim Jumpsuit</p>
+                        <p class="article">Cropped Denim Jumpsuit</p>
                         <div class="rating">
                             <a href="#5" title="Donner 5 étoiles">☆</a>
                             <a href="#4" title="Donner 4 étoiles">☆</a>
@@ -279,73 +300,17 @@
                             <a href="#2" title="Donner 2 étoiles">☆</a>
                             <a href="#1" title="Donner 1 étoile">☆</a>
                         </div>
-                        <p>£ 89.90</p>
+                        <p class="price">£ 89.90</p>
                     </div>
+                </div>
+                <div class="row discover">
+                    <a href="*">DISCOVER MORE</a>
+                    <!-- <hr> -->
                 </div>
             </div>
         </div>
     </div>
 
-
-    <footer>
-        <div class="row-f1">
-            <div class="col-2-f">
-                <h6>HELP & INFORMATION</h6>
-                <ul>
-                    <li><a href="#">Track Order</a></li>
-                    <li><a href="#">Delivery & Returns</a></li>
-                    <li><a href="#">Premier Delivery</a></li>
-                    <li><a href="#">FAQs</a></li>
-                </ul>
-            </div>
-            <div class="col-2-f">
-                <h6>ABOUT SUPRO</h6>
-                <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Coporate</a></li>
-                    <li><a href="#">Investors</a></li>
-                </ul>
-            </div>
-            <div class="col-2-f">
-                <h6>ONLINE SHOP</h6>
-                <ul>
-                    <li><a href="#">Shoes</a></li>
-                    <li><a href="#">Bags</a></li>
-                    <li><a href="#">Wallets</a></li>
-                    <li><a href="#">Belts</a></li>
-                </ul>
-            </div>
-            <div class="col-2-f">
-                <h6>LANGUAGE</h6>
-                <select class="selectpicker" data-width="fit">
-                    <option>English</option>
-                    <option>French</option>
-                </select>
-            </div>
-            <div class="col-2-f">
-                <h6>CURRENCY</h6>
-                <select class="selectpicker" data-width="fit">
-                    <option>USD $</option>
-                    <option>Eur €</option>
-                </select>
-            </div>
-        </div>
-        <hr>
-        <div class="row-f2">
-            <div class="col-6-f">
-                <p>
-                    <span>&#169;</span> <b>Supro</b>. All rights reserved 2019
-                </p>
-            </div>
-            <div class="col-3-f1">
-                <a href="">Privacy Policy</a>
-            </div>
-            <div class="col-3-f2">
-                <a href="">Term of Use</a>
-            </div>
-        </div>
-    </footer>
 
 </body>
 
