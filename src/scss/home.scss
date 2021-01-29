@@ -6,8 +6,11 @@ body {
 header {
   background: url(../supro/homepage/resources/sl3-1.jpg);
   background-repeat: no-repeat;
-  height: 700px;
-  background-position: 10%;
+  height: 100vh;
+  background-position: center bottom 2%;
+}
+.winter {
+  font-size: 100px;
 }
 
 .text-header {
@@ -93,7 +96,7 @@ header {
 
 .photo-sac {
   background-image: url(../supro/homepage/resources/prd_05_1_2.jpg);
-  width: 370px;
+  width: 280px;
   height: 370px;
   // background-size: 150%;
   background-position: center;
@@ -156,10 +159,56 @@ section .hobo {
 //   width: 14%;
 //   // height: 14%;
 // }
-.ft {
-  background-image: url(../supro/homepage/resources/blog8.jpg);
+.ft0 {
+  background-image: url(../supro/homepage/resources/blog6_1.jpg);
+  background-size: 120%;
   width: 60%;
   height: 200px;
-
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ft1 {
+  background-image: url(../supro/homepage/resources/blog4_1.jpg);
+  background-size: 110%;
+  width: 60%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ft2 {
+  background-image: url(../supro/homepage/resources/1-h.jpg);
+  background-size: 110%;
+  width: 60%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ft3 {
+  background-image: url(../supro/homepage/resources/blog1.jpg);
+  background-size: 110%;
+  width: 60%;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+.ft4 {
+  background-image: url(../supro/homepage/resources/abc.jpg);
+  background-size: 300%;
+  width: 60%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.ft5 {
+  background-image: url(../supro/homepage/resources/blog3.jpg);
+  background-size: 110%;
+  width: 60%;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+.ft6 {
+  background-image: url(../supro/homepage/resources/prd_04_1_1.jpg);
+  background-size: 110%;
+  width: 60%;
+  height: 200px;
   background-repeat: no-repeat;
 }

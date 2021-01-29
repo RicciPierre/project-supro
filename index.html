@@ -42,21 +42,21 @@
   <body>
     <!-- Homepage -->
 
-    <header>
+    <header class="d-flex flex-column">
       <!-- image logo gauche header -->
-      <div class="container ">
-        <div class="row ">
-          <div class="col-6 d-flex ">
-            <nav class="navbar navbar-expand-lg navbar-light mb-3 ">
-              <a class="pe-5" href="#"
-                ><img
+      <div class="container-fluid ">
+        <div class="row pt-5">
+          <div class="col-md-6 col-12 d-flex ">
+            <nav class="navbar navbar-expand-lg navbar-light mb-3 d-flex align-items-center  ">
+              <a class="pe-5 my-auto" href="#"
+                ><img 
                   src="./src/supro/homepage/resources/logo_supro.svg"
                   alt=""
               /></a>
 
               <!-- navbar menu header -->
 
-              <ul class="list-unstyled d-flex pt-3 me-5">
+              <ul class="list-unstyled d-flex me-5 my-auto">
                 <li class="px-2">
                   <a href="" class="text-decoration-none text-dark lead" id="#"
                     >Home</a
@@ -90,26 +90,26 @@
               </ul>
             
           </div>
-          <div class="col-6 pt-2 d-flex justify-content-end">
+          <div class="col-md-6 col-12 d-flex justify-content-end">
             <!-- search and  icon -->
-            <form class="form-inline" style="width: 200px">
+            <form class="form-inline"  >
               <input
-                type="text"
-                class="form-control border-secondary rounded-pill ps-5"
+                type="text" placeholder="Search Searching " id="formulaire"
+                class="form-control rounded-pill ps-5 "
               />
             </form>
-            <section class="ps-5 pt-3">
-              <a href="" class="text-decoration-none"
-                ><i class="far fa-user" style="color: white"></i
+            <section class="ps-5 pt-3 pe-5">
+              <a href="" class="text-decoration-none px-1"
+                ><i class="far fa-user" style="color: black"></i
+              ></a>
+              <a href="" class="text-decoration-none px-1"
+                ><i class="far fa-heart" style="color:  black"></i
+              ></a>
+              <a href="" class="text-decoration-none text-dark px-1"
+                ><i class="fas fa-shopping-cart" style="color:  black"></i
               ></a>
               <a href="" class="text-decoration-none"
-                ><i class="far fa-heart" style="color: white"></i
-              ></a>
-              <a href="" class="text-decoration-none text-dark"
-                ><i class="fas fa-shopping-cart" style="color: white"></i
-              ></a>
-              <a href="" class="text-decoration-none"
-                ><i class="fas fa-bars" style="color: white"></i
+                ><i class="fas fa-bars" style="color: black"></i
               ></a>
             </section>
           </div>
@@ -118,55 +118,56 @@
     </div>
     
       <!-- text center header -->
-      <div class="text-header">
-        <div class="container">
-          <div class="row d-flex justify-content-center align-items-center">
+      <div class="text-header justify-self-center my-auto ">
+        <div class="container-fluid ">
+          <div class="row d-flex justify-content-center align-items-center ">
             <div class="col-2">
               <ul class="list-unstyled">
                 <li class="px-2">
                   <a href="" class="text-decoration-none"
-                    ><i class="far fa-user" style="color: white"></i
-                  ></a>
+                    ><i class="fab fa-twitter text-muted" ></i></a>
                 </li>
                 <li class="px-2">
                   <a href="" class="text-decoration-none"
-                    ><i class="far fa-heart" style="color: white"></i
-                  ></a>
+                    ><i class="fab fa-facebook-f text-muted"></i></a>
                 </li>
                 <li class="px-2">
                   <a href="" class="text-decoration-none text-dark"
-                    ><i class="fas fa-shopping-cart"></i
-                  ></a>
+                    ><i class="fab fa-google-plus-g text-muted"></i></a>
                 </li>
                 <li class="px-2">
                   <a href="" class="text-decoration-none"
-                    ><i class="fas fa-bars" style="color: white"></i
-                  ></a>
+                    ><i class="fab fa-pinterest text-muted"></i></a>
                 </li>
               </ul>
             </div>
             <div
-              class="col-8 d-flex justify-content-around align-items-center flex-column"
+              class="col-8 d-flex  align-items-center flex-column "
             >
-              <h1>Winter Collection</h1>
-              <a class="lead text-decoration-none">Discover more</a>
+              <h1 class=" winter text-light font-weight-bold text-center">Winter <br> Collection</h1>
+              <a class="lead text-decoration-none text-white">Discover more</a>
             </div>
-            <div class="col-2">
-              <p class="">next ss preview</p>
-              <h3>woman shoes</h3>
-
-              <p>next ss preview</p>
-              <h3>woman shoes</h3>
-
-              <p>next ss preview</p>
-              <h3>woman shoes</h3>
+            <div class="col-2 d-flex flex-column align-items-end">
+                  <div class="">
+                  
+                  <p class="small text-muted">next ss preview</p>
+                  <h6 class="text-muted">woman shoes</h6>
+               
+                  <p class="small text-muted">Pink</p>
+                  <h6 class="text-muted">Sneaker</h6>
+                
+                  <p class="small text-muted">Winter</p>
+                  <h6>Collection</h6>
+                </div>
+              </div>
+            
             </div>
           </div>
         </div>
       </div>
     </header>
     <!-- 3pictures header -->
-    <main>
+    <main class="pb-5">
       <div class="container-fluid p-0 pb-5">
         <div class="row">
           <div class="col">
@@ -224,7 +225,7 @@
           <div class="bsl1 col-6">
             <div class="bag-text">
             
-              <h5 class="text-justify">Leather <br> Shop <br>Bag</h5>
+              <h5 class="">Leather <br> Shop <br>Bag</h5>
               <p>$89.90</p>
               <a href="">SHOP NOW</a>
           </div>
@@ -232,7 +233,7 @@
           <div class="bsl2 col-6">
             <div class="flower-text">
             
-              <h3 class="text-justify">Flower <br> Design <br>Blouse</h3>
+              <h3 class="">Flower <br> Design <br>Blouse</h3>
               <p>$89.90</p>
               <a href="">SHOP NOW</a>
           </div>
@@ -243,7 +244,7 @@
           <div class="bsl3 col-6">
             <div class="flower-text">
             
-              <h3 class="text-justify">Glitter <br> Decorated <br>shoes</h3>
+              <h3 class="">Glitter <br> Decorated <br>shoes</h3>
               <p>$89.90</p>
               <a href="">SHOP NOW</a>
             </div>
@@ -251,9 +252,9 @@
           <div class="bsl4 col-6">
             <div class="flower-text">
             
-              <h5 class="text-justify">Metallic <br> Frame <br>Glasses</53>
+              <h5 class="">Metallic <br> Frame <br>Glasses</h5>
               <p>$89.90</p>
-              <a href="">SHOP NOW</a>
+              <a href="" >SHOP NOW</a>
               </div>
           </div>
         </div>
@@ -266,34 +267,34 @@
         <div class="row">
           <div class="col-3 pb-5">
             <h3>New arrivals</h3>
-            <p>Browse the huge variety of our products</p>
+            <p class="text-black-50">Browse the huge variety of our products</p>
           </div>
-          <div class="col-9">
-            <nav class="navbar navbar-expand-lg navbar-light mb-3">
-              <div class="col-5 pe-5 " id="menus">
+          <div class="col-9 d-flex justify-content-end">
+            <nav class="navbar navbar-expand-lg navbar-light mb-3 ">
+              <div class="col-5 pe-5 " >
                 <!-- navbar menu header -->
                 <ul class="list-unstyled d-flex me-5 ">
                   <li class="px-2 ">
                     <a
                       href=""
-                      class="text-decoration-none text-dark lead"
+                      class="text-decoration-none text-dark text-nowrap"
                       id="#"
-                      >Home</a
+                      >All Products</a
                     >
                   </li>
                   <li class="px-2">
                     <a
                       href=""
-                      class="text-decoration-none text-dark lead"
-                      id="#"
+                      class="text-decoration-none text-dark text-black-50"
+                      id="#" 
                     >
-                      Shop</a
+                      Clothing</a
                     >
                   </li>
                   <li class="px-2">
                     <a
                       href=""
-                      class="text-decoration-none text-dark lead"
+                      class="text-decoration-none text-dark text-black-50"
                       id="#"
                     >
                       Collection</a
@@ -302,28 +303,28 @@
                   <li class="px-2">
                     <a
                       href=""
-                      class="text-decoration-none text-dark lead"
+                      class="text-decoration-none text-dark text-black-50"
                       id="#"
                     >
-                      Pages</a
+                      Bags</a
                     >
                   </li>
                   <li class="px-2">
                     <a
                       href=""
-                      class="text-decoration-none text-dark lead"
+                      class="text-decoration-none text-dark text-black-50"
                       id="#"
                     >
-                      Blog</a
+                      Shoes</a
                     >
                   </li>
                   <li class="px-2">
                     <a
                       href=""
-                      class="text-decoration-none text-dark lead"
+                      class="text-decoration-none text-dark text-black-50 text-nowrap"
                       id="#"
                     >
-                      Contact</a
+                      Wallets & Cases</a
                     >
                   </li>
                 </ul>
@@ -338,8 +339,8 @@
       <div class="container pt-5">
         <div class="row">
           <div class="col">
-            <div class="photo-sac col"></div>
-            <p>contraste</p>
+            <div class="photo-sac "></div>
+            <p>Constrast Backpack</p>
             <div class="star-rating"> 
               <span class="fa fa-star" data-rating="1"></span>
               <span class="fa fa-star" data-rating="2"></span>
@@ -348,13 +349,13 @@
               <span class="fa fa-star-o" data-rating="5"></span>
               <input type="hidden" name="whatever" class="rating-value" value="3">
             </div>
-            <p>69 $</p>
+            <p class="text-black-50">$ 69.90</p>
             
           </div>
 
           <div class="col">
             <div class="photo-sac col"></div>
-            <p>contraste</p>
+            <p>Contrasting Design T-shirt</p>
             <div class="star-rating"> 
               <span class="fa fa-star" data-rating="1"></span>
               <span class="fa fa-star" data-rating="2"></span>
@@ -364,11 +365,11 @@
               <input type="hidden" name="whatever" class="rating-value" value="3">
 
             </div>
-            <p>69 $</p>
+            <p class="text-black-50">$ 95.90</p>
           </div>
           <div class="col">
             <div class="photo-sac col"></div>
-            <p>contraste</p>
+            <p>Contrasting Design T-Shirt 2</p>
             <div class="star-rating"> 
               <span class="fa fa-star" data-rating="1"></span>
               <span class="fa fa-star" data-rating="2"></span>
@@ -377,13 +378,13 @@
               <span class="fa fa-star-o" data-rating="5"></span>
               <input type="hidden" name="whatever" class="rating-value" value="3">
             </div>
-            <p>69 $</p>
+            <p class="text-black-50">$ 65.90</p>
           </div>
         </div>
         <div class="row">
           <div class="col">
             <div class="photo-sac col"></div>
-            <p>contraste</p>
+            <p>Cotton Sweater </p>
             <div class="star-rating"> 
               <span class="fa fa-star" data-rating="1"></span>
               <span class="fa fa-star" data-rating="2"></span>
@@ -392,11 +393,11 @@
               <span class="fa fa-star-o" data-rating="5"></span>
               <input type="hidden" name="whatever" class="rating-value" value="3">
             </div>
-            <p>69 $</p>
+            <p class="text-black-50">$ 19.00</p>
           </div>
           <div class="col">
             <div class="photo-sac col"></div>
-            <p>contraste</p>
+            <p >Cropped Denim Jumpsuit</p>
            
           <div class="star-rating"> 
               <span class="fa fa-star" data-rating="1"></span>
@@ -406,10 +407,11 @@
               <span class="fa fa-star-o" data-rating="5"></span>
               <input type="hidden" name="whatever" class="rating-value" value="3">
             </div>
+            <p class="text-black-50">$ 89.00</p>
           </div>
           <div class="col">
             <div class="photo-sac col"></div>
-            <p>contraste</p>
+            <p>Glitter Decorated Shoes </p>
             <div class="star-rating"> 
               <span class="fa fa-star" data-rating="1"></span>
               <span class="fa fa-star" data-rating="2"></span>
@@ -418,7 +420,7 @@
               <span class="fa fa-star-o" data-rating="5"></span>
               <input type="hidden" name="whatever" class="rating-value" value="3">
             </div>
-            <p>69 $</p>
+            <p class="text-black-50">$ 56</p>
           </div>
 
           <a href="" class="d-flex justify-content-center pb-5">Discover mode </a>
@@ -486,8 +488,8 @@
                 </div>
 
                 <h6 class="card-text text-left ">Five things you only know if you were at Chanels Hamburg Show</h6>
-                <div class=""><p>DYI</p><p>June 10,2019</p></div>
-                <a href="#" class="card-link">READ MORE</a>
+                <p><span class="text-danger pe-1">DYI</span>June 10,2019</p>
+                <a href="#" class="text-body">READ MORE</a>
 
               </div>
              
@@ -496,18 +498,18 @@
                 <div class="card card2 ">
                 </div>
 
-                <h6 class="card-text text-left ">Five things you only know if you were at Chanels Hamburg Show</h6>
-                <div class=""><p>DYI</p><p>June 10,2019</p></div>
-                <a href="#" class="card-link">READ MORE</a>
+                <h6 class="card-text text-left ">Kering Reinforces Luxury Status By Distributing Puma Shares</h6>
+                <p><span class="text-danger pe-1">DYI</span>June 10,2019</p>
+                <a href="#" class="text-body">READ MORE</a>
 
               </div>
               <div class="card ">
                 <div class="card card3 ">
                 </div>
 
-                <h6 class="card-text text-left ">Five things you only know if you were at Chanels Hamburg Show</h6>
-                <div class=""><p>DYI</p><p>June 10,2019</p></div>
-                <a href="#" class="card-link">READ MORE</a>
+                <h6 class="card-text text-left ">These Glittery Sneakers will make you want to ditch your holiday heels</h6>
+                <p><span class="text-danger pe-1">DYI</span>June 10,2019</p>
+                <a href="#" class="text-body">READ MORE</a>
 
               </div>
             </div>
@@ -516,20 +518,31 @@
 
     <!-- Keep connected -->
 
-    <section class="keep-connected pt-5 ">
+    <section class="keep-connected pt-5  ">
       <div class="container-fluid p-0">
-            <h2>Keek connected</h2>
-            <p class="lead">Our recent articles about fashion ideas & products</p>
+            <div class="ps-5">
+            
+                <h2 class="ps-5">Keep connected</h2>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email Adress" aria-label="" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">SUBSCRIBE</span>
+                  </div>
+                </div>
+             
+             
+              <p class="lead ps-5">Our recent articles about fashion ideas & products</p>
+            </div>
         <div class="row">
-          <div class="col-sm-12">
-            <ul class="list-unstyled d-flex ">
-              <li class="ft"></li>
-              <li class="ft"></li>
-              <li class="ft"></li>
-              <li class="ft"></li>
-              <li class="ft"></li>
-              <li class="ft"></li>
-              <li class="ft"></li>
+          <div class="col">
+            <ul class="list-unstyled d-flex  ">
+              <li class="ft0"></li>
+              <li class="ft1"></li>
+              <li class="ft2"></li>
+              <li class="ft3"></li>
+              <li class="ft4"></li>
+              <li class="ft5"></li>
+              <li class="ft6"></li>
             </ul>
           </div>
           
