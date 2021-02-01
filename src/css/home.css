@@ -74,17 +74,10 @@ header {
 }
 
 .bsl1 {
-  background-image: url(../supro/homepage/resources/bsl1.jpg);
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 200px 200px;
+  width: 200px;
   position: relative;
-  background-position: top 20% left 25%;
-}
-
-.bsl1 .bag-text {
-  position: absolute;
-  bottom: 15%;
-  left: 20%;
 }
 
 .bsl2 {
@@ -142,12 +135,12 @@ header {
   padding-right: 3rem;
 }
 
-.photo-sac {
-  background-image: url(../supro/homepage/resources/prd_05_1_2.jpg);
-  width: 280px;
-  height: 370px;
-  background-position: center center;
+.photo-sac img {
+  background-position: center;
   background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  background-size: 300px;
 }
 
 .star-rating {
@@ -581,6 +574,23 @@ header {
         -ms-flex-pack: start;
             justify-content: start;
   }
+  .bsl1 {
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    width: 400px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
   .ft0 {
     display: none;
   }
@@ -616,6 +626,18 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  .bsl1 {
+    background-image: url(../supro/homepage/resources/bsl1.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position: relative;
+    background-position: top 20% left 25%;
+  }
+  .bsl1 .bag-text {
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
   }
 }
 /*# sourceMappingURL=home.css.map */
