@@ -10,9 +10,8 @@ body {
 
 /* Header */
 
-
 .navbar {
-  padding: 0 130px 0 0;
+  padding: 0;
 }
 
 .list-unstyled {
@@ -30,14 +29,16 @@ body {
   width: 50%;
 }
 
+.header-droite {
+  padding: 0;
+  width: 50%;
+}
+
 section {
   display: flex;
   align-items: center;
 }
 
-.form-inline {
-  padding: 0 0 0 230px;
-}
 
 .form-control {
   border: none;
@@ -47,9 +48,30 @@ section {
   margin: 0;
 }
 
+@media screen and (min-width:992px) {
+  .header-gauche {
+      justify-content: space-around;
+  }
+  .header-droite {
+    justify-content: space-around;
+
+  }
+}
+
+@media screen and (max-width:991px) {
+  .header-gauche {}
+
+  .header-droite {
+    justify-content: right;
+  }
+}
+
+
 /* Left sidebar */
 
-#sidebar {}
+#sidebar {
+  padding-top: 30px;
+}
 
 #sidebar .title {
     font-size: large;
@@ -76,9 +98,9 @@ section {
 
 #sidebar hr {
     height: 2px;
-    width: 150px;
+    width: 70%;
     background-color: #f68773;
-    /* position: relative; */
+    margin: 0 0 10px 10px;
 }
 
 #sidebar .size {
@@ -89,7 +111,6 @@ section {
   display: flex;
   align-items: center;
   padding-top: 10px;
-  padding-bottom: 10px;
   position: relative;
 }
 
@@ -135,12 +156,19 @@ align-items: center;
   line-height: 150%;
 }
 
+@media screen and (max-width:992px) {
+  #xam {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+}
+
 
 
 /* Top bar */
 
 .topbar {
-  height: 110px;
+  height: 200px;
   padding-bottom: 20px;
   margin: 0;
   display: flex;
@@ -188,7 +216,38 @@ h2 {
 .filter-bar {
   padding-left: 0;
   padding-right: 0;
+  display: flex;
+  justify-content: space-between;
 }
+
+.filter-bar p {
+font-weight: 500 ;
+font-size: small;
+}
+
+#grey {
+  color: #999;
+}
+
+@media screen and (max-width:578px) {
+  .filter {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #grid-list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #filter-logo {
+    display: none;
+  }
+}
+
+
 
 .rating {
     direction: rtl;
@@ -208,14 +267,6 @@ h2 {
  }
 
 
- @media screen and (max-width:992px) {
-     #xam {
-         display: flex;
-         flex-direction: column-reverse;
-     }
- }
-
-
  /* Tableau photo */
 
  #tableau {
@@ -225,13 +276,13 @@ h2 {
    justify-content: space-between
  }
 
- #tableau1 {
+ /* #tableau1 {
   padding-bottom: 40px;
   padding-top: 40px;
   display: flex; 
   flex-wrap: nowrap; 
   justify-content: space-between
-}
+} */
 
  .photo {
  }

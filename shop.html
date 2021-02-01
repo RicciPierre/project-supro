@@ -19,12 +19,12 @@
 <body>
 
     <!-- Header -->
-    <header class="container-fluid px-0 pb-4 border-bottom">
-    
+    <header class="container-fluid pb-4 border-bottom">
+
         <div class="row align-items-center pt-4" id="header">
 
             <!-- Left -->
-            <div class="header-gauche col-lg-6 col-md-3 col-sm-6 col-xs-6 d-flex">
+            <div class="header-gauche col-lg-6 col-md-6 d-flex">
 
                 <!-- Logo Supro -->
                 <a class="logo" href="#">
@@ -61,14 +61,17 @@
             </div>
 
             <!-- Right -->
-            <div class="header-gauche col-lg-6 col-md-9 col-sm-6 col-xs-6 d-flex justify-content-around">
+            <div class="header-droite col-lg-6 col-md-6 d-flex">
 
                 <!-- search and icon -->
                 <form class="form-inline d-none d-lg-flex">
-                    <input type="text" class="form-control d-none d-lg-flex" placeholder="Search Searching..."/>
+                    <input type="text" class="form-control d-none d-lg-flex" placeholder="Search Searching..." />
                     <img src="src/supro/shop/resources/search.png" class="px-2">
                 </form>
                 <section class="">
+                    <a href="" class="text-decoration-none px-2 d-lg-none d-md-flex d-sm-flex">
+                        <img src="src/supro/shop/resources/search.png" class="">
+                    </a>
                     <a href="" class="text-decoration-none px-2">
                         <i class="far fa-user" style="color: black"></i></a>
                     <a href="" class="text-decoration-none px-2"><i class="far fa-heart" style="color: black"></i></a>
@@ -79,7 +82,6 @@
             </div>
             </nav>
         </div>
-        <!-- </div> -->
     </header>
 
     <!-- All content except header and footer -->
@@ -90,7 +92,7 @@
         <div class="row" id="xam">
 
             <!-- Left sidebar -->
-            <div class="col-lg-3 col-md-4 col-sm-6" id="sidebar">
+            <div class="col-lg-3 col-md-6 col-sm-6" id="sidebar">
                 <ul>
                     <p class="title">Active Filters</p>
                     <li>× Min £ 9.00</li>
@@ -229,19 +231,37 @@
             <div class="col-lg-9 col-md-12 col-sm-12">
 
                 <div class="row topbar">
-                    <div class="col-lg-3 logo-shop">
+                    <div class="col-lg-4 logo-shop">
                         <h2>Shop</h2>
                         <a href="*" class="home">Home •</a>
                         <a href="*" class="shop">Shop</a>
                     </div>
-                    <div class="col-lg-6 filter-bar">
+
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-12 filter-bar">
+                        <span class="d-flex">
+                            <p>25</p>
+                            <p class="px-2" id="grey">Products Found</p>
+                            <p class="d-lg-flex d-md-flex d-sm-none filter" id="">Filter</p>
+                        </span>
+                        <span class="d-flex">
+                            <p class="d-lg-flex d-md-flex d-sm-none filter" id="">Sortby</p>
+                            <p class="px-2 d-lg-flex d-md-flex d-sm-none filter" id="grey">Default</p>
+                        </span>
+                        <span id="grid-list">
+                            <img src="src/supro/shop/resources/0-grid.png" alt="" class="px-2">
+                            <img src="src/supro/shop/resources/0-list.png" alt="" class="px-2">
+                        </span>
+                        <span id="filter-logo">
+                            <img src="src/supro/shop/resources/0-filter.png" alt="" class="px-2">
+                        </span>
+                        
 
                     </div>
                 </div>
 
 
                 <!-- Tableau photos -->
-                <div class="row" id="tableau1">
+                <div class="row" id="tableau">
 
                     <div class="col-lg-4 col-md-4">
                         <img src="src/supro/shop/resources/1.jpg" class="img-fluid" alt=""

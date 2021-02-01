@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="src/css/contact.css">
+    <script src="https://kit.fontawesome.com/1b9f6bfd78.js" crossorigin="anonymous"></script>
+
+    <title>Supro - Contact</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="container-fluid pb-4 border-bottom">
+
+        <div class="row align-items-center pt-4" id="header">
+
+            <!-- Left -->
+            <div class="header-gauche col-lg-6 col-md-6 d-flex">
+
+                <!-- Logo Supro -->
+                <a class="logo" href="#">
+                    <img src="./src/supro/homepage/resources/logo_supro.svg" alt="" />
+                </a>
+
+                <!-- navbar header -->
+                <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
+                    <ul class="list-unstyled d-flex">
+                        <li class="px-3">
+                            <a href="" class="text-decoration-none" id="nav">Home</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="" class="text-decoration-none" id="nav">
+                                Shop</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="" class="text-decoration-none" id="nav">
+                                Collection</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="" class="text-decoration-none" id="nav">
+                                Pages</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="" class="text-decoration-none" id="nav">
+                                Blog</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="" class="text-decoration-none" id="nav">
+                                Contact</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <!-- Right -->
+            <div class="header-droite col-lg-6 col-md-6 d-flex">
+
+                <!-- search and icon -->
+                <form class="form-inline d-none d-lg-flex">
+                    <input type="text" class="form-control d-none d-lg-flex" placeholder="Search Searching..." />
+                    <img src="src/supro/shop/resources/search.png" class="px-2">
+                </form>
+                <section class="">
+                    <a href="" class="text-decoration-none px-2 d-lg-none d-md-flex d-sm-flex">
+                        <img src="src/supro/shop/resources/search.png" class="">
+                    </a>
+                    <a href="" class="text-decoration-none px-2">
+                        <i class="far fa-user" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none px-2"><i class="far fa-heart" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none text-dark px-2"><i class="fas fa-shopping-cart"
+                            style="color: black"></i></a>
+                    <a href="" class="text-decoration-none px-2"><i class="fas fa-bars" style="color: black"></i></a>
+                </section>
+            </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Banner -->
+        <div class="container-fluid banner-contact">
+
+            <div class="title-contact">
+                <h1>Contact</h1>
+
+                <div class="subtitle-contact">
+                    <a href="index.html" class="link-home p-grey">Home</a>
+                    <span class="dot-subtitle p-grey">•</span>
+                    <a href="contact.html" class="link-contact p-black">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact form -->
+
+        <section class="container-fluid contact-form">
+            <div class="first-section">
+                <form method="post" action="#" class="content-form">
+                    <div class="form-top">
+                        <div class="form-label form-label-top">
+                            <label for="name" class="p-black">Name <span class="orange-star">*</span></label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="form-label form-label-top">
+                            <label for="email" class="p-black">Email <span class="orange-star">*</span></label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <div class="form-label">
+                            <label for="message" class="p-black">Your Message <span class="orange-star">*</span></label>
+                            <textarea type="text" name="message" id="message"></textarea>
+                        </div>
+                        <input type="submit" value="SEND MESSAGE" id="submit">
+                    </div>
+                </form>
+
+                <div class="coord-right">
+                    <ul class="social-network">
+                        <li class="li-social"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="li-social"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <address class="address-place">
+                        <h3 class="h3-black">Our Office</h3>
+                        <p class="p-grey">15 St Margarets Lane New York, NY</p>
+                        <p class="p-grey">10033</p>
+                    </address>
+                    <address class="address-coord">
+                        <h3 class="h3-black">Get in Touch</h3>
+                        <p class="p-black">PHONE NUMBER</p>
+                        <p class="p-grey mb-3"><a href="tel:631-679-6357" class="link-phone">631-679-6357</a></p>
+                        <p class="p-black">EMAIL</p>
+                        <p class="p-grey"><a href="mailto:supro@example.com" class="link-email">supro@example.com</a></p>
+                    </address>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
