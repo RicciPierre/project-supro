@@ -44,19 +44,20 @@
 
     <header class="d-flex flex-column">
       <!-- image logo gauche header -->
-      <div class="container-fluid ">
-        <div class="row pt-5">
-          <div class="col-md-6 col-12 d-flex ">
-            <nav class="navbar navbar-expand-lg navbar-light mb-3 d-flex align-items-center  ">
-              <a class="pe-5 my-auto" href="#"
-                ><img 
-                  src="./src/supro/homepage/resources/logo_supro.svg"
-                  alt=""
-              /></a>
-
+      <div class="container-fluid " id="header-hd">
+        <div class="row " id="header-hd2">
+          <div class="col-6 d-flex my-auto ">
+            <a class="pe-5 p-2" href="#"
+            ><img class=""
+              src="./src/supro/homepage/resources/logo_supro.svg"
+              alt=""
+          /></a>
+            <nav class="navbar navbar-expand-sm navbar-light mb-3 d-flex align-items-center  ">
+              
+              
               <!-- navbar menu header -->
-
-              <ul class="list-unstyled d-flex me-5 my-auto">
+              <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="list-unstyled d-flex me-5 my-auto d-xl-flex d-none">
                 <li class="px-2">
                   <a href="" class="text-decoration-none text-dark lead" id="#"
                     >Home</a
@@ -88,17 +89,20 @@
                   >
                 </li>
               </ul>
-            
+            </div>
           </div>
-          <div class="col-md-6 col-12 d-flex justify-content-end">
+          <div class="col-6 d-flex  " id="modile-hd">
             <!-- search and  icon -->
-            <form class="form-inline"  >
+            <form class="form-inline d-none d-md-inline  iconSearch">
               <input
-                type="text" placeholder="Search Searching " id="formulaire"
-                class="form-control rounded-pill ps-5 "
+                type="text" placeholder="Search Searching...                                    &#xf002;" id="formulaire"
+                class="form-control rounded-pill "  style="width: 90%;"
               />
             </form>
-            <section class="ps-5 pt-3 pe-5">
+            <section class="px-5 d-flex my-auto" id="icon-top">
+              <a href="" class="text-decoration-none px-1" id="search"
+              ><i class="fas fa-search" style="color: black"></i></i
+            ></a>
               <a href="" class="text-decoration-none px-1"
                 ><i class="far fa-user" style="color: black"></i
               ></a>
@@ -108,21 +112,26 @@
               <a href="" class="text-decoration-none text-dark px-1"
                 ><i class="fas fa-shopping-cart" style="color:  black"></i
               ></a>
-              <a href="" class="text-decoration-none"
+              <a href="" class="text-decoration-none px-1"
                 ><i class="fas fa-bars" style="color: black"></i
               ></a>
+             
             </section>
+            
           </div>
+          
         </nav>
+        
       </div>
     </div>
     
+    
       <!-- text center header -->
-      <div class="text-header justify-self-center my-auto ">
+      <div class="text-header my-auto ">
         <div class="container-fluid ">
           <div class="row d-flex justify-content-center align-items-center ">
-            <div class="col-2">
-              <ul class="list-unstyled">
+            <div class="col-2 d-md-flex d-none ">
+              <ul class="list-unstyled  ">
                 <li class="px-2">
                   <a href="" class="text-decoration-none"
                     ><i class="fab fa-twitter text-muted" ></i></a>
@@ -147,7 +156,7 @@
               <h1 class=" winter text-light font-weight-bold text-center">Winter <br> Collection</h1>
               <a class="lead text-decoration-none text-white">Discover more</a>
             </div>
-            <div class="col-2 d-flex flex-column align-items-end">
+            <div class="col-2 d-flex flex-column align-items-end d-md-flex d-none">
                   <div class="">
                   
                   <p class="small text-muted">next ss preview</p>
@@ -171,14 +180,14 @@
       <div class="container-fluid p-0 pb-5">
         <div class="row">
           <div class="col">
-            <ul class="list-unstyled d-flex flex-row">
+            <ul class="list-unstyled " id="three-images-hd">
               <li
-                class="img-main1 d-flex justify-content-start align-items-center"
+                class="img-main1 d-flex justify-content-start align-items-center ps-5 "
               >
                 <div class="row">
-                  <div class="col">
-                    <p class="">Jaccquars print</p>
-                    <h4>
+                  <div class="col ">
+                    <p class="text-muted">Jaccquars print</p>
+                    <h4 class=" fs-1 ">
                       Hairband <br />
                       Collection
                     </h4>
@@ -186,12 +195,12 @@
                 </div>
               </li>
               <li
-                class="img-main2 d-flex justify-content-center align-items-center"
+                class="img-main2 d-flex justify-content-center align-items-center px-5"
               >
                 <div class="row">
                   <div class="col">
-                    <p class="">Jaccquars print</p>
-                    <h4>
+                    <p class="text-white text-center">Jaccquars print</p>
+                    <h4 class="text-white fs-1 ">
                       Hairband <br />
                       Collection
                     </h4>
@@ -199,14 +208,14 @@
                 </div>
               </li>
               <li
-                class="img-main3 d-flex justify-content-end align-items-center"
+                class="img-main3 d-flex justify-content-end align-items-center pe-5"
               >
                 <div class="row">
-                  <div class="col">
-                    <p class="">Jaccquars print</p>
-                    <h4>
+                  <div class="col ">
+                    <p class="text-muted">Jaccquars print</p>
+                    <h4 class="fs-1 ">
                       Courduroy <br />
-                      culottes
+                      Culottes
                     </h4>
                   </div>
                 </div>
@@ -218,230 +227,236 @@
 
       <!-- Top sellers -->
 
-      <div class="container">
+      <div class="container ">
         <h3 class="pt-5">Top Sellers</h3>
-        <p>Browse the huge variety of our products</p>
-        <div class="row">
-          <div class="bsl1 col-6">
+        <p class="pb-5">Browse the huge variety of our products</p>
+
+        <div class="row d-flex justify-content-center">
+        <div class="row ">
+          <div class="bsl1 col-lg-6 col-md-12 ">
             <div class="bag-text">
             
               <h5 class="">Leather <br> Shop <br>Bag</h5>
-              <p>$89.90</p>
-              <a href="">SHOP NOW</a>
+              <p class="text-muted">$89.90</p>
+              <a href="" class="text-body">SHOP NOW</a>
+            </div>
           </div>
-          </div>
-          <div class="bsl2 col-6">
+          <div class="bsl2 col-lg-6 col-md-12 ">
             <div class="flower-text">
             
               <h3 class="">Flower <br> Design <br>Blouse</h3>
-              <p>$89.90</p>
-              <a href="">SHOP NOW</a>
-          </div>
+              <p class="text-muted">$89.90</p>
+              <a href="" class="text-body">SHOP NOW</a>
+            </div>
           </div>
           
-        </div>
-        <div class="row">
-          <div class="bsl3 col-6">
+        
+       
+          <div class="bsl3 col-lg-6 col-md-12">
             <div class="flower-text">
             
               <h3 class="">Glitter <br> Decorated <br>shoes</h3>
-              <p>$89.90</p>
-              <a href="">SHOP NOW</a>
+              <p class="text-muted">$89.90</p>
+              <a href="" class="text-body">SHOP NOW</a>
             </div>
           </div>
-          <div class="bsl4 col-6">
-            <div class="flower-text">
+          <div class="bsl4 col-lg-6 col-md-12">
+              <div class="flower-text">
             
-              <h5 class="">Metallic <br> Frame <br>Glasses</h5>
-              <p>$89.90</p>
-              <a href="" >SHOP NOW</a>
+                <h5 class="">Metallic <br> Frame <br>Glasses</h5>
+                <p class="text-muted">$89.90</p>
+                <a href="" class="text-body">SHOP NOW</a>
               </div>
           </div>
         </div>
+      </div>
       </div>
     </main>
 
     <!-- New arrivals -->
     <section class="pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-3 pb-5">
-            <h3>New arrivals</h3>
-            <p class="text-black-50">Browse the huge variety of our products</p>
-          </div>
-          <div class="col-9 d-flex justify-content-end">
-            <nav class="navbar navbar-expand-lg navbar-light mb-3 ">
-              <div class="col-5 pe-5 " >
-                <!-- navbar menu header -->
-                <ul class="list-unstyled d-flex me-5 ">
-                  <li class="px-2 ">
-                    <a
-                      href=""
-                      class="text-decoration-none text-dark text-nowrap"
-                      id="#"
-                      >All Products</a
-                    >
-                  </li>
-                  <li class="px-2">
-                    <a
-                      href=""
-                      class="text-decoration-none text-dark text-black-50"
-                      id="#" 
-                    >
-                      Clothing</a
-                    >
-                  </li>
-                  <li class="px-2">
-                    <a
-                      href=""
-                      class="text-decoration-none text-dark text-black-50"
-                      id="#"
-                    >
-                      Collection</a
-                    >
-                  </li>
-                  <li class="px-2">
-                    <a
-                      href=""
-                      class="text-decoration-none text-dark text-black-50"
-                      id="#"
-                    >
-                      Bags</a
-                    >
-                  </li>
-                  <li class="px-2">
-                    <a
-                      href=""
-                      class="text-decoration-none text-dark text-black-50"
-                      id="#"
-                    >
-                      Shoes</a
-                    >
-                  </li>
-                  <li class="px-2">
-                    <a
-                      href=""
-                      class="text-decoration-none text-dark text-black-50 text-nowrap"
-                      id="#"
-                    >
-                      Wallets & Cases</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
+          <div class="container">
+            <div class="row  ">
+                <div class="col-md-6 col-sm-12 col-xs-12 pb-5">
+                  <h3>New arrivals</h3>
+                  <p class="text-black-50 ">Browse the huge variety of our products</p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 " id="nav-new-arrivals">
+                  <nav class="navbar navbar-expand-lg navbar-light mb-3 pe-5">
+                    <div class="col-lg-5 " >
+                      <!-- navbar menu header -->
+                      <ul class="list-unstyled d-flex me-5 ">
+                        <li class="px-2 ">
+                          <a
+                            href=""
+                            class="text-decoration-none text-dark text-nowrap"
+                            id="#"
+                            >All Products</a
+                          >
+                        </li>
+                        <li class="px-2">
+                          <a
+                            href=""
+                            class="text-decoration-none text-dark text-black-50"
+                            id="#" 
+                          >
+                            Clothing</a
+                          >
+                        </li>
+                        <li class="px-2">
+                          <a
+                            href=""
+                            class="text-decoration-none text-dark text-black-50"
+                            id="#"
+                          >
+                            Collection</a
+                          >
+                        </li>
+                        <li class="px-2">
+                          <a
+                            href=""
+                            class="text-decoration-none text-dark text-black-50"
+                            id="#"
+                          >
+                            Bags</a
+                          >
+                        </li>
+                        <li class="px-2">
+                          <a
+                            href=""
+                            class="text-decoration-none text-dark text-black-50"
+                            id="#"
+                          >
+                            Shoes</a
+                          >
+                        </li>
+                        <li class="px-2">
+                          <a
+                            href=""
+                            class="text-decoration-none text-dark text-black-50 text-nowrap"
+                            id="#"
+                          >
+                            Wallets & Cases</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <!-- 6 photos New Arrival -->
 
-      <!-- 6 photos New Arrival -->
-
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col">
-            <div class="photo-sac "></div>
-            <p>Constrast Backpack</p>
-            <div class="star-rating"> 
-              <span class="fa fa-star" data-rating="1"></span>
-              <span class="fa fa-star" data-rating="2"></span>
-              <span class="fa fa-star" data-rating="3"></span>
-              <span class="fa fa-star" data-rating="4"></span>
-              <span class="fa fa-star-o" data-rating="5"></span>
-              <input type="hidden" name="whatever" class="rating-value" value="3">
-            </div>
-            <p class="text-black-50">$ 69.90</p>
+             
+          
             
+              <div class="col-lg-4 col-sm-4 col-sm-6">
+                <div class="photo-sac  "></div>
+                <p>Constrast Backpack</p>
+                <div class="star-rating"> 
+                  <span class="fa fa-star" data-rating="1"></span>
+                  <span class="fa fa-star" data-rating="2"></span>
+                  <span class="fa fa-star" data-rating="3"></span>
+                  <span class="fa fa-star" data-rating="4"></span>
+                  <span class="fa fa-star-o" data-rating="5"></span>
+                  <input type="hidden" name="whatever" class="rating-value" value="3">
+                </div>
+                <p class="text-black-50">$ 69.90</p>
+                
+              </div>
+
+              <div class="col-lg-4 col-sm-4 col-sm-6">
+                <div class="photo-sac "></div>
+                <p>Contrasting Design T-shirt</p>
+                <div class="star-rating"> 
+                  <span class="fa fa-star" data-rating="1"></span>
+                  <span class="fa fa-star" data-rating="2"></span>
+                  <span class="fa fa-star" data-rating="3"></span>
+                  <span class="fa fa-star" data-rating="4"></span>
+                  <span class="fa fa-star-o" data-rating="5"></span>
+                  <input type="hidden" name="whatever" class="rating-value" value="3">
+
+                </div>
+                <p class="text-black-50">$ 95.90</p>
+              </div>
+              <div class="col-lg-4 col-sm-4 col-sm-6">
+                <div class="photo-sac "></div>
+                <p>Contrasting Design T-Shirt 2</p>
+                <div class="star-rating"> 
+                  <span class="fa fa-star" data-rating="1"></span>
+                  <span class="fa fa-star" data-rating="2"></span>
+                  <span class="fa fa-star" data-rating="3"></span>
+                  <span class="fa fa-star" data-rating="4"></span>
+                  <span class="fa fa-star-o" data-rating="5"></span>
+                  <input type="hidden" name="whatever" class="rating-value" value="3">
+                </div>
+                <p class="text-black-50">$ 65.90</p>
+              </div>
+          
+            
+              <div class="col-lg-4 col-sm-4 col-sm-6">
+                <div class="photo-sac "></div>
+                <p>Cotton Sweater </p>
+                <div class="star-rating"> 
+                  <span class="fa fa-star" data-rating="1"></span>
+                  <span class="fa fa-star" data-rating="2"></span>
+                  <span class="fa fa-star" data-rating="3"></span>
+                  <span class="fa fa-star" data-rating="4"></span>
+                  <span class="fa fa-star-o" data-rating="5"></span>
+                  <input type="hidden" name="whatever" class="rating-value" value="3">
+                </div>
+                <p class="text-black-50">$ 19.00</p>
+              </div>
+              <div class="col-lg-4 col-sm-4 col-sm-6">
+                <div class="photo-sac "></div>
+                <p >Cropped Denim Jumpsuit</p>
+              
+              <div class="star-rating"> 
+                  <span class="fa fa-star" data-rating="1"></span>
+                  <span class="fa fa-star" data-rating="2"></span>
+                  <span class="fa fa-star" data-rating="3"></span>
+                  <span class="fa fa-star" data-rating="4"></span>
+                  <span class="fa fa-star-o" data-rating="5"></span>
+                  <input type="hidden" name="whatever" class="rating-value" value="3">
+                </div>
+                <p class="text-black-50">$ 89.00</p>
+              </div>
+              <div class="col-lg-4 col-sm-4 col-sm-6">
+                <div class="photo-sac "></div>
+                <p>Glitter Decorated Shoes </p>
+                <div class="star-rating"> 
+                  <span class="fa fa-star" data-rating="1"></span>
+                  <span class="fa fa-star" data-rating="2"></span>
+                  <span class="fa fa-star" data-rating="3"></span>
+                  <span class="fa fa-star" data-rating="4"></span>
+                  <span class="fa fa-star-o" data-rating="5"></span>
+                  <input type="hidden" name="whatever" class="rating-value" value="3">
+                </div>
+                <p class="text-black-50">$ 56</p>
+              </div>
+
+              <a href="" class="d-flex justify-content-center pb-5 pt-5 text-body">Discover mode </a>
+            
+            </div>
+          
+       
           </div>
 
-          <div class="col">
-            <div class="photo-sac col"></div>
-            <p>Contrasting Design T-shirt</p>
-            <div class="star-rating"> 
-              <span class="fa fa-star" data-rating="1"></span>
-              <span class="fa fa-star" data-rating="2"></span>
-              <span class="fa fa-star" data-rating="3"></span>
-              <span class="fa fa-star" data-rating="4"></span>
-              <span class="fa fa-star-o" data-rating="5"></span>
-              <input type="hidden" name="whatever" class="rating-value" value="3">
-
-            </div>
-            <p class="text-black-50">$ 95.90</p>
-          </div>
-          <div class="col">
-            <div class="photo-sac col"></div>
-            <p>Contrasting Design T-Shirt 2</p>
-            <div class="star-rating"> 
-              <span class="fa fa-star" data-rating="1"></span>
-              <span class="fa fa-star" data-rating="2"></span>
-              <span class="fa fa-star" data-rating="3"></span>
-              <span class="fa fa-star" data-rating="4"></span>
-              <span class="fa fa-star-o" data-rating="5"></span>
-              <input type="hidden" name="whatever" class="rating-value" value="3">
-            </div>
-            <p class="text-black-50">$ 65.90</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="photo-sac col"></div>
-            <p>Cotton Sweater </p>
-            <div class="star-rating"> 
-              <span class="fa fa-star" data-rating="1"></span>
-              <span class="fa fa-star" data-rating="2"></span>
-              <span class="fa fa-star" data-rating="3"></span>
-              <span class="fa fa-star" data-rating="4"></span>
-              <span class="fa fa-star-o" data-rating="5"></span>
-              <input type="hidden" name="whatever" class="rating-value" value="3">
-            </div>
-            <p class="text-black-50">$ 19.00</p>
-          </div>
-          <div class="col">
-            <div class="photo-sac col"></div>
-            <p >Cropped Denim Jumpsuit</p>
-           
-          <div class="star-rating"> 
-              <span class="fa fa-star" data-rating="1"></span>
-              <span class="fa fa-star" data-rating="2"></span>
-              <span class="fa fa-star" data-rating="3"></span>
-              <span class="fa fa-star" data-rating="4"></span>
-              <span class="fa fa-star-o" data-rating="5"></span>
-              <input type="hidden" name="whatever" class="rating-value" value="3">
-            </div>
-            <p class="text-black-50">$ 89.00</p>
-          </div>
-          <div class="col">
-            <div class="photo-sac col"></div>
-            <p>Glitter Decorated Shoes </p>
-            <div class="star-rating"> 
-              <span class="fa fa-star" data-rating="1"></span>
-              <span class="fa fa-star" data-rating="2"></span>
-              <span class="fa fa-star" data-rating="3"></span>
-              <span class="fa fa-star" data-rating="4"></span>
-              <span class="fa fa-star-o" data-rating="5"></span>
-              <input type="hidden" name="whatever" class="rating-value" value="3">
-            </div>
-            <p class="text-black-50">$ 56</p>
-          </div>
-
-          <a href="" class="d-flex justify-content-center pb-5">Discover mode </a>
-        </div>
-      </div>
+      
+      
+       
+        
     </section>
 
     <!-- Hobo Shopper Bag -->
 
     <section class="hobo">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 deals_image  ">
-            <div class="row d-flex flex-column ">
-              <div class="col-12 flower-text">
-                <p>Deal of the day</p>
-                <h4>Hobo Shopper Bag</h4>
-                <p>$79.90</p>
-                <p>$39.00</p>
-                
-                <p class="text-decoration-none bg-danger text-light rounded p-1" style="width:80px; height: 30px;">Save 50%</p>
+      <div class="container-fluid  ">
+        <div class="row deals_image">
+         <div class="col flower-text">
+          <p>Deal of the day</p>
+          <h4>Hobo Shopper Bag</h4>
+          <p>$79.90</p>
+          <p>$39.00</p>
+          <p class="text-decoration-none bg-danger text-light rounded p-1" style="width:80px; height: 30px;">Save 50%</p>
                 
                   <ul class="bg-white text-dark rounded  list-unstyled d-flex justify-content-evenly font-weight-bold text-center " style="width: 30%; ">
                     <li class="fs-2">-179 <br> <p class=" fs-5 lead">Days</p> </li>
@@ -450,41 +465,32 @@
                     <li class="fs-2">-33 <br> <p class=" fs-5 lead">Seconds</p> </li>
                   </ul>
                
-                <a href="">SHOP NOW</a>
-              </div>
-                 
-               
-              
-            </div>
-               
-                  
-          </div>
-              
-           
+                <a href="" class="text-body">SHOP NOW</a>
+         </div>
         </div>
       </div>
     </section>
 
       <!-- Latest-news -->
 
-    <section class="lastest-news">
+    <section class="latest-news">
         <div class="container">
           <div class="row ">
-            <div class="col  ">
+            <div class="col">
               <h2>Latest News</h2>
               <p class="lead pb-5">Our recent articles about fashion ideas & products</p>
             
             </div>
             <div class="col d-flex justify-content-end me-4 ">
-              <a class="">SEE ALL NEWS</a>
+              <a class="text-body">SEE ALL NEWS</a>
             </div>
            
           </div>
           
-          <div class="row pb-5">
-            <div class="col d-flex justify-content-center  ">
+          <div class="row pb-5" >
+            <div class="col" id="latest-images">
               <div class="card me-4">
-                <div class="card card1  ">
+                <div class="card1">
                 </div>
 
                 <h6 class="card-text text-left ">Five things you only know if you were at Chanels Hamburg Show</h6>
@@ -519,40 +525,116 @@
     <!-- Keep connected -->
 
     <section class="keep-connected pt-5  ">
-      <div class="container-fluid p-0">
-            <div class="ps-5">
-            
-                <h2 class="ps-5">Keep connected</h2>
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Email Adress" aria-label="" aria-describedby="basic-addon2">
-                  <div class="input-group-append">
-                    <span class="input-group-text" id="basic-addon2">SUBSCRIBE</span>
-                  </div>
-                </div>
-             
-             
-              <p class="lead ps-5">Our recent articles about fashion ideas & products</p>
-            </div>
-        <div class="row">
-          <div class="col">
-            <ul class="list-unstyled d-flex  ">
-              <li class="ft0"></li>
-              <li class="ft1"></li>
-              <li class="ft2"></li>
-              <li class="ft3"></li>
-              <li class="ft4"></li>
-              <li class="ft5"></li>
-              <li class="ft6"></li>
-            </ul>
+      <div class="container">
+        <div class="row justify-content-center" id="keep-connected-text">
+          <div class="col-lg-6 col-md-6 col-sm-12 pb-5">
+            <h2 class="">Keep connected</h2>
+            <p class="text-muted">Our recent articles about fashion ideas & products</p>
           </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 ">
+            
+            <div class="input-group mb-3">
+              <input type="text" class=" iconEmail form-control" placeholder="&#xf0e0; Email Adress " aria-label="" aria-describedby="button-addon2" id="input-b" >
+              <div class="input-group-append">
+                <button class="btn btn-outline " type="button" id="input-b">SUBSCRIBE</button>
+              </div>
+            </div>
           
-
+         
+         
+         
         </div>
+          
+        </div>
+      </div>
+      <div class="container-fluid pt-5">
+       
+       
+      </div>
+        
+          <div class="row" id="keep-connected-images">
+            <div class="col-md-12 col-sm-12">
+              <ul class="list-unstyled d-flex">
+                <li class="ft0"></li>
+                <li class="ft1"></li>
+                <li class="ft2"></li>
+                <li class="ft3"></li>
+                <li class="ft4"></li>
+                <li class="ft5"></li>
+                <li class="ft6"></li>
+              </ul>
+            </div>
+            
+  
+          </div>
+       
       </div>
       
       
    
 
     </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="row-f1">
+          <div class="col-3-f1">
+              <h6 class="h6-f1">HELP & INFORMATION</h6>
+              <ul class="ul-f1">
+                  <li class="li-f1"><a href="#">Track Order</a></li>
+                  <li class="li-f1"><a href="#">Delivery & Returns</a></li>
+                  <li class="li-f1"><a href="#">Premier Delivery</a></li>
+                  <li class="li-f1"><a href="#">FAQs</a></li>
+              </ul>
+          </div>
+          <div class="col-2-f2">
+              <h6 class="h6-f2">ABOUT SUPRO</h6>
+              <ul class="ul-f2">
+                  <li class="li-f2"><a href="#">About us</a></li>
+                  <li class="li-f2"><a href="#">Careers</a></li>
+                  <li class="li-f2"><a href="#">Coporate</a></li>
+                  <li class="li-f2"><a href="#">Investors</a></li>
+              </ul>
+          </div>
+          <div class="col-2-f3">
+              <h6 class="h6-f3">ONLINE SHOP</h6>
+              <ul class="ul-f3">
+                  <li class="li-f3"><a href="#">Shoes</a></li>
+                  <li class="li-f3"><a href="#">Bags</a></li>
+                  <li class="li-f3"><a href="#">Wallets</a></li>
+                  <li class="li-f3"><a href="#">Belts</a></li>
+              </ul>
+          </div>
+          <div class="col-2-f4">
+              <h6 class="h6-f4">LANGUAGE</h6>
+              <select class="selectpicker-f1" data-width="fit">
+                  <option>English</option>
+                  <option>French</option>
+              </select>
+          </div>
+          <div class="col-2-f5">
+              <h6 class="h6-f5">CURRENCY</h6>
+              <select class="selectpicker-f2" data-width="fit">
+                  <option>GBP £</option>
+                  <option>USD $</option>
+                  <option>Eur €</option>
+              </select>
+          </div>
+      </div>
+      <hr class="hr-f">
+      <div class="row-f2">
+          <div class="col-6-f1">
+              <p>
+                  <span>&#169;</span> <img src="src/supro/product/resources/logo_supro.svg" alt="logo" class="logo"> All rights reserved 2019
+              </p>
+          </div>
+          <div class="col-2-f1">
+              <a href="">Privacy Policy</a>
+          </div>
+          <div class="col-2-f2">
+              <a href="">Term of Use</a>
+          </div>
+      </div>
+  </footer>
   </body>
 </html>

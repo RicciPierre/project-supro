@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 header {
@@ -11,8 +14,39 @@ header {
   background-position: center bottom 2%;
 }
 
+#modile-hd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#header-hd2 {
+  padding-top: 3%;
+}
+
+#search {
+  display: none;
+}
+
 .winter {
   font-size: 100px;
+}
+
+#three-images-hd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .img-main1 {
@@ -20,6 +54,7 @@ header {
   height: 300px;
   background-image: url(../supro/homepage/resources/banner_h1_1.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 .img-main2 {
@@ -27,6 +62,7 @@ header {
   height: 300px;
   background-image: url(../supro/homepage/resources/banner_h1_2.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 .img-main3 {
@@ -34,6 +70,7 @@ header {
   height: 300px;
   background-image: url(../supro/homepage/resources/banner_h1_3.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 .bsl1 {
@@ -41,12 +78,12 @@ header {
   background-repeat: no-repeat;
   background-size: 40%;
   position: relative;
-  background-position: top 20% left 30%;
+  background-position: top 20% left 25%;
 }
 
 .bsl1 .bag-text {
   position: absolute;
-  bottom: 8%;
+  bottom: 15%;
   left: 20%;
 }
 
@@ -69,37 +106,47 @@ header {
   height: 60vh;
   background-image: url(../supro/homepage/resources/bsl3.jpg);
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 70%;
   position: relative;
-  background-position: top 70% left -10%;
+  background-position: top 70% left 90%;
 }
 
 .bsl3 .flower-text {
   position: absolute;
   top: 10%;
-  left: -11%;
+  left: 15%;
 }
 
 .bsl4 {
   height: 60vh;
   background-image: url(../supro/homepage/resources/bsl4.jpg);
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 35%;
   position: relative;
-  background-position: top 60% left 30%;
+  background-position: top 40% left 40%;
 }
 
 .bsl4 .flower-text {
   position: absolute;
-  bottom: -11%;
-  left: 21%;
+  bottom: 7%;
+  left: 27%;
+}
+
+#nav-new-arrivals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 3rem;
 }
 
 .photo-sac {
   background-image: url(../supro/homepage/resources/prd_05_1_2.jpg);
   width: 280px;
   height: 370px;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -111,8 +158,10 @@ header {
   height: 800px;
   background-image: url(../supro/homepage/resources/deals_image.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background: cover;
   position: relative;
+  background-size: contain;
+  background-position: center;
 }
 
 .hobo .deals_image .flower-text {
@@ -130,84 +179,443 @@ header {
 }
 
 .card {
-  width: 400px;
+  width: 100%;
+}
+
+#latest-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card1 {
   background-image: url(../supro/homepage/resources/blog1.jpg);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .card2 {
   background-image: url(../supro/homepage/resources/blog2.jpg);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .card3 {
   background-image: url(../supro/homepage/resources/blog3.jpg);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#keep-connected-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ft0 {
   background-image: url(../supro/homepage/resources/blog6_1.jpg);
-  background-size: 120%;
-  width: 60%;
-  height: 200px;
+  height: 10rem;
+  width: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
 .ft1 {
   background-image: url(../supro/homepage/resources/blog4_1.jpg);
-  background-size: 110%;
-  width: 60%;
-  height: 200px;
+  height: 10rem;
+  width: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
 .ft2 {
   background-image: url(../supro/homepage/resources/1-h.jpg);
-  background-size: 110%;
-  width: 60%;
-  height: 200px;
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .ft3 {
   background-image: url(../supro/homepage/resources/blog1.jpg);
-  background-size: 110%;
-  width: 60%;
-  height: 200px;
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .ft4 {
-  background-image: url(../supro/homepage/resources/abc.jpg);
-  background-size: 300%;
-  width: 60%;
-  height: 200px;
+  background-image: url(../supro/homepage/resources/blog3.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: center;
 }
 
 .ft5 {
   background-image: url(../supro/homepage/resources/blog3.jpg);
-  background-size: 110%;
-  width: 60%;
-  height: 200px;
+  width: 100%;
+  height: 10rem;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .ft6 {
   background-image: url(../supro/homepage/resources/prd_04_1_1.jpg);
-  background-size: 110%;
-  width: 60%;
-  height: 200px;
+  width: 100%;
+  height: 10rem;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#input-b {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.iconEmail {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+.iconSearch {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  width: auto;
+}
+
+.footer {
+  margin-top: 10%;
+}
+
+.footer .row-f1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 5%;
+}
+
+.footer .row-f1 .col-3-f1 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: left;
+}
+
+.footer .row-f1 .col-3-f1 .h6-f1 {
+  margin-bottom: 20%;
+  color: #222222;
+}
+
+.footer .row-f1 .col-3-f1 .ul-f1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .row-f1 .col-3-f1 .ul-f1 .li-f1 {
+  margin-bottom: 8%;
+}
+
+.footer .row-f1 .col-3-f1 .ul-f1 .li-f1 a {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .row-f1 .col-3-f1 .ul-f1 .li-f1 a:hover {
+  background-color: #222222;
+  color: white;
+  padding: 3%;
+  border-radius: 15px;
+}
+
+.footer .row-f1 .col-2-f2 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  text-align: left;
+}
+
+.footer .row-f1 .col-2-f2 .h6-f2 {
+  margin-bottom: 28%;
+  color: #222222;
+}
+
+.footer .row-f1 .col-2-f2 .ul-f2 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .row-f1 .col-2-f2 .ul-f2 .li-f2 {
+  margin-bottom: 13%;
+}
+
+.footer .row-f1 .col-2-f2 .ul-f2 .li-f2 a {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .row-f1 .col-2-f2 .ul-f2 .li-f2 a:hover {
+  background-color: #222222;
+  color: white;
+  padding: 3%;
+  border-radius: 15px;
+}
+
+.footer .row-f1 .col-2-f3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  text-align: left;
+}
+
+.footer .row-f1 .col-2-f3 .h6-f3 {
+  margin-bottom: 28%;
+  color: #222222;
+}
+
+.footer .row-f1 .col-2-f3 .ul-f3 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .row-f1 .col-2-f3 .ul-f3 .li-f3 {
+  margin-bottom: 13%;
+}
+
+.footer .row-f1 .col-2-f3 .ul-f3 .li-f3 a {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .row-f1 .col-2-f3 .ul-f3 .li-f3 a:hover {
+  background-color: #222222;
+  color: white;
+  padding: 3%;
+  border-radius: 15px;
+}
+
+.footer .row-f1 .col-2-f4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  text-align: left;
+}
+
+.footer .row-f1 .col-2-f4 .h6-f4 {
+  margin-bottom: 28%;
+  color: #222222;
+}
+
+.footer .row-f1 .col-2-f4 .selectpicker-f1 {
+  color: grey;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer .row-f1 .col-2-f5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  text-align: left;
+}
+
+.footer .row-f1 .col-2-f5 .h6-f5 {
+  margin-bottom: 28%;
+  color: #222222;
+}
+
+.footer .row-f1 .col-2-f5 .selectpicker-f2 {
+  color: grey;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer .row-f2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  font-size: small;
+  -webkit-column-gap: 1%;
+          column-gap: 1%;
+}
+
+.footer .row-f2 .col-6-f1 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  color: grey;
+}
+
+.footer .row-f2 .col-6-f1 p {
+  margin: 0;
+}
+
+.footer .row-f2 .col-6-f1 p .logo {
+  display: inline;
+  vertical-align: bottom;
+  width: 7%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .row-f2 .col-2-f1 {
+  -ms-flex: 0 0 16.666667%;
+  -webkit-box-flex: 0;
+          flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+  text-align: right;
+  margin-left: 14%;
+}
+
+.footer .row-f2 .col-2-f2 {
+  -ms-flex: 0 0 16.666667%;
+  -webkit-box-flex: 0;
+          flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+  text-align: left;
+}
+
+@media screen and (max-width: 578px) {
+  header {
+    background: url(../supro/homepage/resources/sl3-1.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center top -10%;
+  }
+  #three-images-hd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .winter {
+    font-size: 55px;
+  }
+  #header-hd {
+    background-color: #fff;
+    height: 8%;
+  }
+  #header-hd2 {
+    padding-top: 1%;
+  }
+  #icon-top {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  #search {
+    display: unset;
+  }
+  #icon-twitters {
+    background-color: green;
+  }
+  #new-arrivals {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #latest-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #keep-connected-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .ft0 {
+    display: none;
+  }
+  .ft1 {
+    display: none;
+  }
+  .ft2 {
+    display: none;
+  }
+  .ft3 {
+    display: none;
+  }
+  .ft4 {
+    background-image: url(../supro/homepage/resources/blog3.jpg);
+    height: 10rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .ft5 {
+    background-image: url(../supro/homepage/resources/blog3.jpg);
+    height: 10rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .ft6 {
+    background-image: url(../supro/homepage/resources/prd_04_1_1.jpg);
+    height: 10rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 /*# sourceMappingURL=home.css.map */
