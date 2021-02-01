@@ -92,7 +92,7 @@
   
   .p-grey {
     text-decoration: none;
-    font-size: xx-small;
+    font-size: 14px;
     color: #999;
   }
 
@@ -102,8 +102,9 @@
 
   .p-black {
     text-decoration: none;
-    font-size: xx-small;
+    font-size: 12px;
     color: black;
+    font-weight: bold;
   }
 
   .link-contact:hover {
@@ -119,13 +120,15 @@
   /* Contact form */
 
   .contact-form {
-      height: 600px;
+      height: auto;
+      margin-top: 50px;
   }
 
   .first-section {
       width: 70%;
-      height: 500px;
+      height: auto;
       margin: auto;
+      padding-bottom: 100px;
       display: flex;
       border-bottom: 1px solid rgba(173, 173, 173, 0.377);
   }
@@ -211,23 +214,25 @@
 }
 
 .h3-black {
-    font-size: medium;
+    font-size: 20px;
     font-weight: bolder;
     margin-bottom: 15px;
 }
 
 .coord-right {
     width: 35%;
-    height: 70%;
+    height: 90%;
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
+    padding-left: 70px;
     justify-content: space-between;
 }
 
 .social-network {
     display: flex;
     padding: 0;
+    width: 85%;
+    justify-content: space-between;
 }
 
 .li-social {
@@ -245,3 +250,92 @@
     color: #636363;
 }
 
+@media screen and (max-width: 768px) {
+  .first-section {
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .content-form {
+    width: 100%;
+  }
+
+  .coord-right {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+  .address-place p {
+    display: inline-block;
+    width: max-content;
+  }
+
+  .social-network {
+    width: 55%;
+    margin-bottom: 30px;
+  }
+
+  .h3-black {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .coord-right {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .first-section {
+    padding-bottom: 15px;
+  }
+
+  .social-network {
+    width: 70%;
+  }
+
+  .li-social {
+    width: 35px;
+    height: 35px;
+  }
+
+  .address-place .p-grey {
+    font-size: 16px;
+  }
+
+  .address-coord .p-grey {
+    font-size: 16px;
+  }
+
+  .form-top {
+    flex-direction: column;
+  }
+
+  #name,
+  #email,
+  .form-label-top {
+    width: 100%;
+  }
+}
+
+
+/* Address section */
+
+.address {
+  height: 300px;
+  border-bottom: #000;
+}
+
+.address-section {
+  width: 70%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  border: #000 solid 1px;
+}

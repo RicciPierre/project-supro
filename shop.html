@@ -74,10 +74,12 @@
                     </a>
                     <a href="" class="text-decoration-none px-2">
                         <i class="far fa-user" style="color: black"></i></a>
-                    <a href="" class="text-decoration-none px-2"><i class="far fa-heart" style="color: black"></i></a>
-                    <a href="" class="text-decoration-none text-dark px-2"><i class="fas fa-shopping-cart"
-                            style="color: black"></i></a>
-                    <a href="" class="text-decoration-none px-2"><i class="fas fa-bars" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none px-2">
+                        <i class="far fa-heart" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none text-dark px-2">
+                        <i class="fas fa-shopping-cart" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none px-2">
+                        <i class="fas fa-bars" style="color: black"></i></a>
                 </section>
             </div>
             </nav>
@@ -95,9 +97,18 @@
             <div class="col-lg-3 col-md-6 col-sm-6" id="sidebar">
                 <ul>
                     <p class="title">Active Filters</p>
-                    <li>× Min £ 9.00</li>
-                    <li>× Max £ 9.00</li>
-                    <li>× Remove all filter</li>
+                    <li class="d-flex align-items-center">
+                        <img src="src/supro/shop/resources/cancel.png" class="cancel">
+                        <p class="px-2">Min £ 9.00</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img src="src/supro/shop/resources/cancel.png" class="cancel">
+                        <p class="px-2">Max £ 9.00</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img src="src/supro/shop/resources/cancel.png" class="cancel">
+                        <p class="px-2">Remove all filter</p>
+                    </li>
                 </ul>
 
                 <ul>
@@ -238,14 +249,16 @@
                     </div>
 
                     <div class="col-lg-8 col-md-12 col-sm-12 col-12 filter-bar">
-                        <span class="d-flex">
+                        <span class="d-flex align-items-center">
                             <p>25</p>
                             <p class="px-2" id="grey">Products Found</p>
-                            <p class="d-lg-flex d-md-flex d-sm-none filter" id="">Filter</p>
+                            <p class="d-lg-flex d-md-none d-sm-none pr-2 filter" id="">Filter</p>
+                            <img src="src/supro/shop/resources/dropdown.png" class="d-lg-flex d-md-none d-sm-none d-none" id="dropdown">
                         </span>
-                        <span class="d-flex">
+                        <span class="d-flex align-items-center">
                             <p class="d-lg-flex d-md-flex d-sm-none filter" id="">Sortby</p>
                             <p class="px-2 d-lg-flex d-md-flex d-sm-none filter" id="grey">Default</p>
+                            <img src="src/supro/shop/resources/dropdown.png" class="d-lg-flex d-md-flex d-sm-none d-none" id="dropdown">
                         </span>
                         <span id="grid-list">
                             <img src="src/supro/shop/resources/0-grid.png" alt="" class="px-2">
@@ -261,9 +274,9 @@
 
 
                 <!-- Tableau photos -->
-                <div class="row" id="tableau">
+                <div class="row pad-row" id="tableau">
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/1.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/1-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/1.jpg'">
@@ -278,7 +291,7 @@
                         <p class="price">£ 9.90</p>
                     </div>
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/2.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/2-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/2.jpg'">
@@ -292,7 +305,7 @@
                         </div>
                         <p class="price">£ 69.90</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/3.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/3-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/3.jpg'">
@@ -306,9 +319,9 @@
                         </div>
                         <p class="price">£ 56.89</p>
                     </div>
-                </div>
-                <div class="row" id="tableau">
-                    <div class="col-lg-4 col-md-4">
+                <!-- </div> -->
+                <!-- <div class="row" id="tableau"> -->
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/4.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/4-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/4.jpg'">
@@ -322,7 +335,7 @@
                         </div>
                         <p class="price">£ 97.99</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/5.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/5-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/5.jpg'">
@@ -336,7 +349,7 @@
                         </div>
                         <p class="price">£ 89.90</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/6.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/6-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/6.jpg'">
@@ -351,8 +364,9 @@
                         <p class="price">£ 56.90</p>
                     </div>
                 </div>
-                <div class="row" id="tableau">
-                    <div class="col-lg-4 col-md-4">
+
+                <div class="row pad-row" id="tableau">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/7.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/7-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/7.jpg'">
@@ -366,7 +380,7 @@
                         </div>
                         <p class="price">£ 95.90</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/8.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/8-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/8.jpg'">
@@ -380,7 +394,7 @@
                         </div>
                         <p class="price">£ 95.90</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/9.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/9-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/9.jpg'">
@@ -394,9 +408,9 @@
                         </div>
                         <p class="price">£ 55.90</p>
                     </div>
-                </div>
-                <div class="row" id="tableau">
-                    <div class="col-lg-4 col-md-4">
+                <!-- </div>
+                <div class="row" id="tableau"> -->
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/10.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/10-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/10.jpg'">
@@ -410,7 +424,7 @@
                         </div>
                         <p class="price">£ 59.90</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/11.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/11-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/11.jpg'">
@@ -424,7 +438,7 @@
                         </div>
                         <p class="price">£ 159.90</p>
                     </div>
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 col-6">
                         <img src="src/supro/shop/resources/12.jpg" class="img-fluid" alt=""
                             onmouseover="this.src='src/supro/shop/resources/12-h.jpg'"
                             onmouseout="this.src='src/supro/shop/resources/12.jpg'">

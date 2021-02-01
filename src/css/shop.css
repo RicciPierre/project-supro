@@ -96,6 +96,11 @@ section {
     line-height: 27px;
 }
 
+.cancel {
+  width: 10px;
+  height: 10px;
+}
+
 #sidebar hr {
     height: 2px;
     width: 70%;
@@ -225,6 +230,11 @@ font-weight: 500 ;
 font-size: small;
 }
 
+#dropdown {
+  width: 10px;
+  height: 10px;
+}
+
 #grey {
   color: #999;
 }
@@ -270,19 +280,14 @@ font-size: small;
  /* Tableau photo */
 
  #tableau {
-   padding-bottom: 40px;
    display: flex; 
-   flex-wrap: nowrap; 
+   flex-wrap: wrap; 
    justify-content: space-between
  }
 
- /* #tableau1 {
+.pad-row .col-lg-4:nth-child(n+1) {
   padding-bottom: 40px;
-  padding-top: 40px;
-  display: flex; 
-  flex-wrap: nowrap; 
-  justify-content: space-between
-} */
+}
 
  .photo {
  }
