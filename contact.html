@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="src/css/contact.css">
+    <link rel="icon" href="src/supro/homepage/resources/logo_supro.svg" type="image/png" />
     <script src="https://kit.fontawesome.com/1b9f6bfd78.js" crossorigin="anonymous"></script>
 
-    <title>Supro - Contact</title>
+
+    <title>Supro. Contact</title>
 </head>
 
 <body>
@@ -24,7 +26,7 @@
             <div class="header-gauche col-lg-6 col-md-6 d-flex">
 
                 <!-- Logo Supro -->
-                <a class="logo" href="#">
+                <a class="logo" href="index.html">
                     <img src="./src/supro/homepage/resources/logo_supro.svg" alt="" />
                 </a>
 
@@ -32,14 +34,14 @@
                 <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
                     <ul class="list-unstyled d-flex">
                         <li class="px-3">
-                            <a href="" class="text-decoration-none" id="nav">Home</a>
+                            <a href="index.html" class="text-decoration-none" id="nav">Home</a>
                         </li>
                         <li class="px-3">
-                            <a href="" class="text-decoration-none" id="nav">
+                            <a href="shop.html" class="text-decoration-none" id="nav">
                                 Shop</a>
                         </li>
                         <li class="px-3">
-                            <a href="" class="text-decoration-none" id="nav">
+                            <a href="product.html" class="text-decoration-none" id="nav">
                                 Collection</a>
                         </li>
                         <li class="px-3">
@@ -51,7 +53,7 @@
                                 Blog</a>
                         </li>
                         <li class="px-3">
-                            <a href="" class="text-decoration-none" id="nav">
+                            <a href="contact.html" class="text-decoration-none" id="nav">
                                 Contact</a>
                         </li>
                     </ul>
@@ -98,7 +100,6 @@
         </div>
 
         <!-- Contact form -->
-
         <section class="container-fluid contact-form">
             <div class="first-section">
                 <form method="post" action="#" class="content-form">
@@ -134,7 +135,7 @@
                         <p class="p-grey">15 St Margarets Lane New York, NY</p>
                         <p class="p-grey">10033</p>
                     </address>
-                    <address class="address-coord">
+                    <address class="address-coord" id="address-coord">
                         <h3 class="h3-black">Get in Touch</h3>
                         <p class="p-black">PHONE NUMBER</p>
                         <p class="p-grey mb-3"><a href="tel:631-679-6357" class="link-phone">631-679-6357</a></p>
@@ -143,17 +144,15 @@
                         </p>
                     </address>
                 </div>
-
             </div>
         </section>
 
         <!-- Address -->
-
         <section class="container-fluid address">
             <div class="address-section">
                 <div class="coord">
                     <div class="store">
-                        <h3>Store in London</h3>
+                        <p class="fw-bold">Store in London</p>
                         <div class="location">
                             <p class="p-black">LOCATION</p>
                             <p class="p-grey">16 Iiolaire Road, New Abbey, DG2 2SX</p>
@@ -174,7 +173,7 @@
 
                 <div class="coord">
                     <div class="store">
-                        <h3>Store in Sydney</h3>
+                        <p class="fw-bold">Store in Sydney</p>
                         <div class="location">
                             <p class="p-black">LOCATION</p>
                             <p class="p-grey">16 Iiolaire Road, New Abbey, DG2 2SX</p>
@@ -195,7 +194,7 @@
 
                 <div class="coord">
                     <div class="store">
-                        <h3>Store in Hamburg</h3>
+                        <p class="fw-bold">Store in Hamburg</p>
                         <div class="location">
                             <p class="p-black">LOCATION</p>
                             <p class="p-grey">16 Iiolaire Road, New Abbey, DG2 2SX</p>
@@ -218,18 +217,77 @@
         </section>
 
         <!-- Map -->
-
-        <section class="container-fluid map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48291.56067553564!2d-73.91951444248932!3d40.84503758523863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f41e2c232fbd%3A0xa9d60fd1f9eb48e4!2sMargaret&#39;s%20Tours!5e0!3m2!1sfr!2sbe!4v1612200199329!5m2!1sfr!2sbe"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+        <section class="container-fluid mapping">
+            <img src="src/supro/contact/resources/map-desk.png" class="map d-lg-flex d-md-none d-sm-none d-none">
+            <img src="src/supro/contact/resources/map-tab.png" class="map d-lg-none d-md-flex d-sm-none d-none">
+            <img src="src/supro/contact/resources/map-mob.png" class="map d-lg-none d-md-none d-sm-flex d-flex">
         </section>
 
 
-
-
     </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="row row-f">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-f">
+                <h6 class="h6-f1" style="fw-bold">HELP & INFORMATION</h6>
+                <ul class="ul-f1">
+                    <li class="li-f1"><a href="#">Track Order</a></li>
+                    <li class="li-f1"><a href="#">Delivery & Returns</a></li>
+                    <li class="li-f1"><a href="#">Premier Delivery</a></li>
+                    <li class="li-f1"><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-f">
+                <h6 class="h6-f2">ABOUT SUPRO</h6>
+                <ul class="ul-f2">
+                    <li class="li-f2"><a href="#">About us</a></li>
+                    <li class="li-f2"><a href="#">Careers</a></li>
+                    <li class="li-f2"><a href="#">Coporate</a></li>
+                    <li class="li-f2"><a href="#">Investors</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-f">
+                <h6 class="h6-f3">ONLINE SHOP</h6>
+                <ul class="ul-f3">
+                    <li class="li-f3"><a href="#">Shoes</a></li>
+                    <li class="li-f3"><a href="#">Bags</a></li>
+                    <li class="li-f3"><a href="#">Wallets</a></li>
+                    <li class="li-f3"><a href="#">Belts</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-12 col-sm-12 col-f col-12">
+                <h6 class="h6-f4">LANGUAGE</h6>
+                <select class="selectpicker-f1" data-width="fit">
+                    <option>English</option>
+                    <option>French</option>
+                </select>
+            </div>
+            <div class="col-lg-2 col-md-12 col-sm-12 col-f col-12">
+                <h6 class="h6-f5">CURRENCY</h6>
+                <select class="selectpicker-f2" data-width="fit">
+                    <option>GBP £</option>
+                    <option>USD $</option>
+                    <option>Eur €</option>
+                </select>
+            </div>
+            <div class="row" id="foot">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <p class="p-logo">
+                        <span>&#169;</span> <img src="src/supro/product/resources/logo_supro.svg" alt="logo"
+                            class="logo"> All rights reserved 2019
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md col-sm col-right">
+                    <a href="" class="a-f-sm">Privacy Policy</a>
+                </div>
+                <div class="col-lg-3 col-md col-sm col-left">
+                    <a href="" class="a-f-sm">Term of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
