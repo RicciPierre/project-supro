@@ -328,7 +328,7 @@
 /* Address section */
 
 .address {
-  height: 300px;
+  height: 400px;
   border-bottom: #000;
 }
 
@@ -337,5 +337,46 @@
   height: 200px;
   margin: auto;
   display: flex;
-  border: #000 solid 1px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coord,
+.store,
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coord {
+  justify-content: space-between;
+}
+
+.store {
+  width: 48%;
+  justify-content: space-between;
+}
+
+.contact {
+  width: 48%;
+  justify-content: space-around
+}
+
+.email {
+  width: 185px;
+}
+
+@media screen and (max-width: 768px) {
+  .address-section {
+    width: 100%;
+  }
+
+  .store h3 {
+    width: 100%;
+  }
+
+  .store {
+    flex-direction: column;
+  }
 }
