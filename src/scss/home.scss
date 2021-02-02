@@ -110,10 +110,13 @@ header {
 
 //6 photos new arrival
 
+#first-li-new-arrival {
+}
+
 #nav-new-arrivals {
   display: flex;
   justify-content: flex-end;
-  padding-right: 3rem;
+  padding-right: ;
 }
 
 .photo-sac img {
@@ -130,6 +133,18 @@ header {
 
 // photos 3sacs
 section .hobo {
+}
+.deal-day {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  background-size: cover;
+  p {
+    font-size: 1.2rem;
+  }
+  ul li {
+    font-size: 1rem;
+  }
 }
 
 .hobo .deals_image {
@@ -452,9 +467,26 @@ section .hobo {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  body {
+    padding: auto;
+    margin: auto;
+  }
+  #nav-new-arrivals {
+    display: flex;
+    justify-content: start;
+    padding: none;
+    margin: none;
+  }
+  #first-li-new-arrival {
+    padding-right: none;
+  }
+}
 // Small devices (landscape phones, 578px and up)
 @media screen and (max-width: 578px) {
   body {
+    padding: auto;
+    margin: auto;
   }
   header {
     background: url(../supro/homepage/resources/sl3-1.jpg);

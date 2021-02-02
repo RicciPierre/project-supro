@@ -147,6 +147,28 @@ header {
   color: #ee8673;
 }
 
+.deal-day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+}
+
+.deal-day p {
+  font-size: 1.2rem;
+}
+
+.deal-day ul li {
+  font-size: 1rem;
+}
+
 .hobo .deals_image {
   height: 800px;
   background-image: url(../supro/homepage/resources/deals_image.jpg);
@@ -512,7 +534,31 @@ header {
   text-align: left;
 }
 
+@media screen and (max-width: 1199px) {
+  body {
+    padding: auto;
+    margin: auto;
+  }
+  #nav-new-arrivals {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding: none;
+    margin: none;
+  }
+  #first-li-new-arrival {
+    padding-right: none;
+  }
+}
+
 @media screen and (max-width: 578px) {
+  body {
+    padding: auto;
+    margin: auto;
+  }
   header {
     background: url(../supro/homepage/resources/sl3-1.jpg);
     background-repeat: no-repeat;
