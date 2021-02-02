@@ -10,16 +10,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="src/supro/product/resources/logo_supro.svg" type="image/svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Supro</title>
+    <script
+      src="https://kit.fontawesome.com/1b9f6bfd78.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Supro. Products</title>
 </head>
 <body class="container">
-    <header>
-        <hr class="hr-h">
+    <header class="container-h pb-4 border-bottom">
+
+        <div class="row align-items-center pt-4" id="header">
+
+            <!-- Left -->
+            <div class="header-gauche col-lg-6 col-md-6 d-flex">
+
+                <!-- Logo Supro -->
+                <a class="logo" href="index.html">
+                    <img src="./src/supro/homepage/resources/logo_supro.svg" alt="" />
+                </a>
+
+                <!-- navbar header -->
+                <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
+                    <ul class="list-unstyled d-flex">
+                        <li class="px-3">
+                            <a href="index.html" class="text-decoration-none" id="nav">Home</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="shop.html" class="text-decoration-none" id="nav">
+                                Shop</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="product.html" class="text-decoration-none" id="nav">
+                                Collection</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="" class="text-decoration-none" id="nav">
+                                Pages</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="about.html" class="text-decoration-none" id="nav">
+                                Blog</a>
+                        </li>
+                        <li class="px-3">
+                            <a href="contact.html" class="text-decoration-none" id="nav">
+                                Contact</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <!-- Right -->
+            <div class="header-droite col-lg-6 col-md-6 d-flex">
+
+                <!-- search and icon -->
+                <form class="form-inline d-none d-lg-flex">
+                    <input type="text" class="form-control d-none d-lg-flex" placeholder="Search Searching..." />
+                    <img src="src/supro/shop/resources/search.png" class="px-2">
+                </form>
+                <section class="icon-nav">
+                    <a href="" class="text-decoration-none px-2 d-lg-none d-md-flex d-sm-flex">
+                        <img src="src/supro/shop/resources/search.png" class="">
+                    </a>
+                    <a href="" class="text-decoration-none px-2">
+                        <i class="far fa-user" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none px-2">
+                        <i class="far fa-heart" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none text-dark px-2">
+                        <i class="fas fa-shopping-cart" style="color: black"></i></a>
+                    <a href="" class="text-decoration-none px-2">
+                        <i class="fas fa-bars" style="color: black"></i></a>
+                </section>
+            </div>
+            </nav>
+        </div>
     </header>
     <main class="main-product">
         <section class="prod-presentation">
-            <div class="row" id="row">
-                <div class=" col-lg-8 col-md-12 col-sm-12">
+            <div class="row row-pp">
+                <div class=" col-lg-7 col-md-12 col-sm-12">
                         <a href="index.html" class="a-pp1">Home</a>
                         <a href="#" class="a-pp2">Wallet & Cases</a>
                         <a href="#" class="a-pp3">Contrasting Design T-Shirt</a>                
@@ -33,13 +100,13 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 pp-img1">
                     <img src="src/supro/product/resources/1.jpg" alt="front"  class="img-pp">
                     <div class="row row-sm">
-                        <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-img">
                         <img src="src/supro/product/resources/1.jpg" alt="front"  class="img1">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-img">
                         <img src="src/supro/product/resources/2.jpg" alt="back" class="img2">
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-4">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-img">
                         <img src="src/supro/product/resources/3.jpg" alt="side" class="img3">
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm">
@@ -82,10 +149,10 @@
                             </div>
                             <hr class="hr-pp">
                             <p class="category-pp">
-                               <span class="category">CATEGORY:</span><a href="#">Women,</a> <a href="#">Top,</a> <a href="#">Accessories,</a> <a href="#">Jewellery</a>
+                               <span class="category">CATEGORY:</span> <a href="#">Women</a>, <a href="#">Top</a>, <a href="#">Accessories</a>, <a href="#">Jewellery</a>
                             </p>
                             <p class="tags-pp">
-                               <span class="category">TAGS:</span><a href="#">clothing,</a> <a href="#">t-shirt,</a> <a href="#">woman</a>
+                               <span class="category">TAGS:</span> <a href="#">clothing</a>, <a href="#">t-shirt</a>, <a href="#">woman</a>
                             </p>
                             <img src="src/supro/product/resources/facebook-white.svg" alt="faceook" class="icon-pp1">
                             <img src="src/supro/product/resources/twitter-white.svg" alt="twitter" class="icon-pp2">
@@ -97,7 +164,7 @@
         </section>
         <hr class="hr-m1">
         <section class="prod-info">
-            <div class="row row-sm-pi">
+            <div class="row row-sm-pi row-pi">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-right">
                     <a href="#" id="a">Description</a>
                 </div>
@@ -134,7 +201,7 @@
             </div>
         </section>
         <section class="prod-related">
-            <div class="row">
+            <div class="row row-pr">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-pr">
                     <h3 class="h3-pr">Related Products</h3>
                 </div>
@@ -146,7 +213,7 @@
                     <div class="review-pr">
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                     </div>
@@ -160,7 +227,7 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star checked"></span>
                         <span class="fa fa-star"></span>
                     </div>
                     <p class="price-pr">£ 69.90</p>
@@ -184,7 +251,7 @@
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star checked"></span>
                         <span class="fa fa-star"></span>
                     </div>
                     <p class="price-pr">£ 97.99</p>
@@ -206,7 +273,7 @@
             <div class="col-lg-2 col-md-4 col-sm-12 col-f">
                 <h6 class="h6-f2">ABOUT SUPRO</h6>
                 <ul class="ul-f2">
-                    <li class="li-f2"><a href="#">About us</a></li>
+                    <li class="li-f2"><a href="about.html">About us</a></li>
                     <li class="li-f2"><a href="#">Careers</a></li>
                     <li class="li-f2"><a href="#">Coporate</a></li>
                     <li class="li-f2"><a href="#">Investors</a></li>
@@ -241,7 +308,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <p class="p-logo">
-                    <span>&#169;</span> <img src="src/supro/product/resources/logo_supro.svg" alt="logo" class="logo"> All rights reserved 2019
+                    <span>&#169;</span> <a href="index.html"><img src="src/supro/product/resources/logo_supro.svg" alt="logo" class="logo"></a> All rights reserved 2019
                 </p>
             </div>
             <div class="col-lg-2 col-md col-sm col-right">
