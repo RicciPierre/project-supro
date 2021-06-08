@@ -29,8 +29,5 @@ Project carried out as part of the "Junior web developer" training [@ BeCode](ht
 [Click here](https://github.com/becodeorg/LIE-Jepsen-4.27/tree/master/01-the-field/04-html-css/03-client-project)
 
 ### Contributor :
-* [Gregory Di Caro](https://github.com/GregDiCaro)
-* [Pierre Ricci](https://github.com/RicciPierre)
+* [Pierre Ricci](https://github.com/RicciPierre) : **Collection page**
 
-### Images of the project :
-Upcoming
