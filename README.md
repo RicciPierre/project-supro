@@ -1,8 +1,5 @@
 # Supro Project
 
-### URL of the project :
-https://laetitiagullo.github.io/project-supro/
-
 ### Date of realization :
 January 2021
 
@@ -31,3 +28,6 @@ Project carried out as part of the "Junior web developer" training [@ BeCode](ht
 ### Contributor :
 * [Pierre Ricci](https://github.com/RicciPierre) : **Collection page**
 
+
+### URL of the project :
+https://laetitiagullo.github.io/project-supro/
